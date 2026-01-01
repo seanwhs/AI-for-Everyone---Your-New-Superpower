@@ -1,12 +1,15 @@
-# Feedback Guide 
+# 💬 Workshop Feedback
 
-## Purpose
-This document tracks the evolution of the course based on learner input.
+Your feedback helps me improve this course for the next group of learners. Please take 2 minutes to share your experience.
 
-## How to use Feedback
-1. **At 3:30 PM:** Display the Feedback QR Code/Link on the screen.
-2. **Review:** Check the Google Forms "Summary" tab.
-3. **Archive:** Every 3 months, copy the key "Improvements" suggested by learners into this file to track how the course has evolved.
+👉 [**Workshop Feedback Form (Google Forms)**](INSERT_GOOGLE_FEEDBACK_LINK_HERE)
 
-## Past Improvements
-- *Version 1.0:* Initial Launch.
+### Areas to consider:
+* Was the PRTC prompting method clear?
+* Did you find NotebookLM or Gemini more useful?
+* How can I improve the Sarcopenia Lab?
+
+Thank you for helping bridge the digital divide!
+
+---
+[Back to Homepage](https://seanwhs.github.io/AI-for-Everyone---Your-New-Superpower/)

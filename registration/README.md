@@ -1,11 +1,13 @@
-# Registration Management (registration/readme.md)
+# 📝 Workshop Registration
 
-## Google Form Setup
-1. Create a Google Form with: Name, Email, Age Group, and "What is your experience with AI?".
-2. Ensure "Collect Email Addresses" is turned on.
-3. Link the form to the **Register** button on the `index.html` page.
+To join an upcoming session of **AI for Everyone**, please complete the registration form via the link below. 
 
-## Manual Registration
-If a learner cannot use the form, the trainer should:
-- Manually add their details to the linked Google Sheet.
-- Send a "Welcome Email" with the link to this GitHub Pages site so they can view the curriculum.
+👉 [**Official Registration Form (Google Forms)**](INSERT_GOOGLE_REGISTRATION_LINK_HERE)
+
+### Why Register?
+* Receive the workshop calendar and location details.
+* Get pre-course setup instructions.
+* Receive a digital copy of the course materials after the session.
+
+---
+[Back to Homepage](https://seanwhs.github.io/AI-for-Everyone---Your-New-Superpower/)
