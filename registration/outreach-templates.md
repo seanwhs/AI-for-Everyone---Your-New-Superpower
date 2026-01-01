@@ -1,37 +1,37 @@
-# Course Outreach Templates
+# Outreach & Communication Templates
 
-## 📧 Email Invitation
-**Subject:** 🚀 Invite: Discover Your AI Superpower (One-Day Workshop)
+## 1. Post-Registration Welcome Email
+**Subject:** Welcome to the Superpower Workshop: Your AI Journey Starts Here! 🚀
 
-Hi [Name],
+**Body:**
 
-Have you been hearing about AI but aren't sure where to start? Do you want to learn how to use it for practical things like health, cooking, or even Excel?
+Hi [Learner Name],
 
-Join us for **"AI for Everyone,"** a light-hearted, one-day workshop designed specifically for beginners. 
+Thank you for registering for the **AI for Everyone: Your New Superpower** workshop! I'm thrilled to have you join us.
 
-**What you’ll learn:**
-- How to talk to AI so it actually helps you.
-- Planning meals and vacations in seconds.
-- A hands-on lab: Using AI to create a senior fitness guide!
+I’ve received your registration details. This workshop is designed to move you from "AI Anxious" to "AI Empowered" by focusing on real-world tools like Google Gemini and NotebookLM.
 
-**When:** [Date]
-**Where:** [Location/Link]
-**Register here:** [Link to your Google Form]
+### 🗓️ Next Steps & Preparation:
+To get the most out of our session, please complete these three small steps:
 
-No tech experience required—just bring your curiosity!
+1. **Bookmark the Course Site:** [https://seanwhs.github.io/AI-for-Everyone---Your-New-Superpower/](https://seanwhs.github.io/AI-for-Everyone---Your-New-Superpower/)
+2. **Review the Course Notes:** Familiarize yourself with the P.R.T.C. framework here: [Course Notes Link]
+3. **Set Up Your Tools:** Ensure you have a personal Google Account ready so you can access Gemini (gemini.google.com).
+
+### 📍 Workshop Details:
+* **Date/Time:** [Insert Date/Time]
+* **Location/Link:** [Insert Zoom/Google Meet Link]
+
+If you have any specific questions you'd like me to address during the labs, just hit reply and let me know!
+
+See you soon,
+
+**Sean Wong** *Freelance Technology Consultant | AI Literacy Advocate*
 
 ---
 
-## 📱 Social Media Blurb (LinkedIn/Facebook/WhatsApp)
-**Headline:** Stop wondering about AI and start using it! 🤖✨
+## 2. Day-Before Reminder
+**Subject:** Reminder: Our AI Workshop is Tomorrow!
 
-I’m hosting a one-day workshop: **"AI for Everyone."** This isn't about robots taking over the world—it's about making your life easier today. From helping with homework to planning a nutrition routine to beat Sarcopenia, we’ll show you the practical side of Gemini and NotebookLM.
-
-✅ No coding.
-✅ No jargon.
-✅ 100% practical.
-
-Join us on [Date]. Spaces are limited! 
-Register here: [Insert Link]
-
-#AIForEveryone #LifelongLearning #DigitalLiteracy
+**Body:**
+Just a quick note to say I'm looking forward to our session tomorrow. Please have a few "pain point" tasks in mind (e.g., a messy Excel sheet or a long research paper) that we can try to solve using your new AI skills!
