@@ -1,0 +1,94 @@
+:root {
+    --primary: #2563eb;
+    --secondary: #64748b;
+    --dark: #0f172a;
+    --light: #f8fafc;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo { font-weight: 600; font-size: 1.5rem; color: var(--primary); }
+
+nav ul { list-style: none; display: flex; align-items: center; gap: 30px; }
+
+nav a { text-decoration: none; color: var(--dark); font-weight: 500; }
+
+.nav-cta { background: var(--primary); color: white !important; padding: 8px 16px; border-radius: 6px; }
+
+.hero {
+    text-align: center;
+    padding: 120px 10%;
+    background: radial-gradient(circle at top, #eff6ff, #ffffff);
+}
+
+.hero h1 { font-size: 3.5rem; margin-bottom: 20px; letter-spacing: -1px; }
+
+.hero-btns { display: flex; justify-content: center; gap: 15px; margin-top: 30px; }
+
+.cta-button {
+    background: var(--primary);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.cta-secondary {
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 80px 5%;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+.light-bg { background: var(--light); padding: 80px 5%; text-align: center; }
+
+.resource-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px; }
+
+.resource-grid a {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    font-weight: 500;
+}
+
+.feedback-section { text-align: center; padding: 100px 5%; }
+
+footer { text-align: center; padding: 50px; border-top: 1px solid #e2e8f0; font-size: 0.9rem; }

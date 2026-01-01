@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assessment | AI Appreciation</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .quiz-container { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .question { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .options { list-style: none; padding: 0; }
+        .options li { margin: 10px 0; padding: 10px; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .options li:hover { background: #eff6ff; border-color: #2563eb; }
+        .feedback { display: none; margin-top: 10px; font-weight: 600; padding: 10px; border-radius: 6px; }
+        .correct { background: #dcfce7; color: #166534; }
+        .incorrect { background: #fee2e2; color: #991b1b; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">AI Superpower</div>
+        <a href="index.html">Back to Home</a>
+    </nav>
+
+    <div class="quiz-container">
+        <h1>Final Knowledge Check</h1>
+        <p>Test your understanding before claiming your certificate!</p>
+        <hr>
+
+        <div class="question">
+            <h3>1. Which term describes how Gemini predicts the next word?</h3>
+            <ul class="options">
+                <li onclick="showFeedback(this, true)">Statistical Probability</li>
+                <li onclick="showFeedback(this, false)">Magic</li>
+                <li onclick="showFeedback(this, false)">Sentient Thought</li>
+            </ul>
+            <div class="feedback"></div>
+        </div>
+
+        <div class="question">
+            <h3>2. Which tool is best for summarizing YOUR OWN private files?</h3>
+            <ul class="options">
+                <li onclick="showFeedback(this, false)">Gemini</li>
+                <li onclick="showFeedback(this, true)">NotebookLM</li>
+                <li onclick="showFeedback(this, false)">Google Search</li>
+            </ul>
+            <div class="feedback"></div>
+        </div>
+
+        <p><i>More questions can be added here following the same format...</i></p>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="certificate.html" class="cta-button">Passed? Claim Your Certificate!</a>
+        </div>
+    </div>
+
+    <script>
+        function showFeedback(element, isCorrect) {
+            const feedbackDiv = element.parentElement.nextElementSibling;
+            feedbackDiv.style.display = 'block';
+            if (isCorrect) {
+                feedbackDiv.innerHTML = "✅ Correct!";
+                feedbackDiv.className = "feedback correct";
+            } else {
+                feedbackDiv.innerHTML = "❌ Try again! Think about the course notes.";
+                feedbackDiv.className = "feedback incorrect";
+            }
+        }
+    </script>
+</body>
+</html>

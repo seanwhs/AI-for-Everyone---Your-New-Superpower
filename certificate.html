@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Superpower - Certificate</title>
+    <style>
+        body { font-family: 'Georgia', serif; text-align: center; padding: 50px; background: #f4f4f4; }
+        .cert-container { background: white; width: 800px; height: 600px; padding: 50px; border: 20px solid #2563eb; margin: auto; position: relative; box-shadow: 0 0 20px rgba(0,0,0,0.2); }
+        .content { border: 5px solid #1e293b; height: 100%; padding: 40px; }
+        h1 { font-size: 50px; color: #1e293b; margin-bottom: 0; }
+        h2 { font-size: 20px; color: #64748b; text-transform: uppercase; letter-spacing: 5px; }
+        .name { font-size: 40px; color: #2563eb; margin: 30px 0; border-bottom: 2px solid #ccc; display: inline-block; min-width: 400px; outline: none; }
+        p { font-size: 18px; color: #333; line-height: 1.6; }
+        .footer { margin-top: 50px; display: flex; justify-content: space-around; }
+        .sig { border-top: 1px solid #333; width: 200px; padding-top: 10px; font-style: italic; }
+        @media print { .no-print { display: none; } body { background: white; padding: 0; } .cert-container { box-shadow: none; margin: 0; } }
+    </style>
+</head>
+<body>
+    <div class="no-print" style="margin-bottom: 20px;">
+        <p>Type your name below, then click Print.</p>
+        <button onclick="window.print()" style="padding: 10px 20px; cursor: pointer; background: #2563eb; color: white; border: none; border-radius: 5px;">Print to PDF</button>
+    </div>
+
+    <div class="cert-container">
+        <div class="content">
+            <h2>Certificate of Completion</h2>
+            <p>This is to certify that</p>
+            <div class="name" contenteditable="true">Click to Type Your Name</div>
+            <p>has successfully completed the one-day workshop</p>
+            <h1>AI FOR EVERYONE</h1>
+            <p>Mastering Practical AI with Gemini & NotebookLM</p>
+            <div class="footer">
+                <div class="sig">Course Trainer</div>
+                <div class="sig">Date: January 2026</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
