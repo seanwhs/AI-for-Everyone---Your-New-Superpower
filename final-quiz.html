@@ -9,44 +9,61 @@
         .quiz-container { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         .question { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
         .options { list-style: none; padding: 0; }
-        .options li { margin: 10px 0; padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; }
-        .options li:hover { background: #eff6ff; }
+        .options li { margin: 10px 0; padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .options li:hover { background: #eff6ff; border-color: #2563eb; }
         .feedback { display: none; margin-top: 10px; font-weight: bold; padding: 10px; border-radius: 6px; }
         .correct { background: #dcfce7; color: #166534; }
         .incorrect { background: #fee2e2; color: #991b1b; }
     </style>
 </head>
 <body>
+    <nav>
+        <div class="logo">AI Superpower</div>
+        <a href="index.html">Back to Home</a>
+    </nav>
+
     <div class="quiz-container">
-        <h1>Knowledge Check</h1>
+        <h1>Final Knowledge Check</h1>
+        <p>Select the correct answer for each question.</p>
+        <hr>
+
         <div class="question">
             <h3>1. What does the 'P' in PRTC stand for?</h3>
             <ul class="options">
-                <li onclick="ans(this, true)">Persona</li>
-                <li onclick="ans(this, false)">Power</li>
-                <li onclick="ans(this, false)">Printer</li>
+                <li onclick="checkAns(this, true)">Persona</li>
+                <li onclick="checkAns(this, false)">Power</li>
+                <li onclick="checkAns(this, false)">Purpose</li>
             </ul>
             <div class="feedback"></div>
         </div>
+
         <div class="question">
-            <h3>2. Which tool is best for searching live internet info?</h3>
+            <h3>2. Which tool is better for real-time web research?</h3>
             <ul class="options">
-                <li onclick="ans(this, true)">Gemini</li>
-                <li onclick="ans(this, false)">NotebookLM</li>
+                <li onclick="checkAns(this, true)">Google Gemini</li>
+                <li onclick="checkAns(this, false)">NotebookLM</li>
             </ul>
             <div class="feedback"></div>
         </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <p id="finish-text" style="display:none; color: #166534; margin-bottom: 15px;">Well done! You have passed the quiz.</p>
+            <a href="certificate.html" class="cta-button">Claim Your Certificate</a>
+        </div>
     </div>
-    <div style="text-align:center;">
-        <a href="certificate.html" class="cta-button">Claim Your Certificate</a>
-        <p><a href="thank-you.html" style="font-size: 0.8em; color: gray;">Skip to Thank You</a></p>
-    </div>
+
     <script>
-        function ans(el, isCorrect) {
-            const f = el.parentElement.nextElementSibling;
-            f.style.display = 'block';
-            f.innerHTML = isCorrect ? "✅ Correct!" : "❌ Try again!";
-            f.className = isCorrect ? "feedback correct" : "feedback incorrect";
+        function checkAns(element, isCorrect) {
+            const feedbackDiv = element.parentElement.nextElementSibling;
+            feedbackDiv.style.display = 'block';
+            if (isCorrect) {
+                feedbackDiv.innerHTML = "✅ Correct!";
+                feedbackDiv.className = "feedback correct";
+                document.getElementById('finish-text').style.display = 'block';
+            } else {
+                feedbackDiv.innerHTML = "❌ Try again! Think about the course notes.";
+                feedbackDiv.className = "feedback incorrect";
+            }
         }
     </script>
 </body>
