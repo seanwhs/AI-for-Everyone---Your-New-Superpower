@@ -2,7 +2,7 @@
 
 Your feedback helps me improve this course for the next group of learners. Please take 2 minutes to share your experience.
 
-👉 [**Workshop Feedback Form (Google Forms)**](INSERT_GOOGLE_FEEDBACK_LINK_HERE)
+👉 [**Workshop Feedback Form (Google Forms)**](https://docs.google.com/forms/d/e/1FAIpQLSdMBR0q_WGt6biOWyOCwLciaAdnegTWX_0kLc3kYggBZ4_wdw/viewform?usp=publish-editor)
 
 ### Areas to consider:
 * Was the PRTC prompting method clear?
