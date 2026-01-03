@@ -1,281 +1,333 @@
-# ⚡ AI Workshop Slides — Full Rewrite
+# 🎨 AI for Everyone — Slide Deck
 
 ---
 
-## **Module 1: The Magic of AI**
+## **Module 1: Welcome & Mindset**
 
-### **Slide 1: Title Slide**
+**Slide 1 — Title Slide**
 
-* **Title:** AI for Everyone: Your New Superpower
-* **Subtitle:** A Light-Hearted Guide to the Future
-* **Image Idea:** Friendly AI icon with a lightbulb
-
----
-
-### **Slide 2: What is AI? (Layman’s Version)**
-
-* AI is **not a robot from a movie**.
-* It’s a **supercharged predictive text engine** that has read billions of sentences.
-* Think of AI as a **Brilliant Intern**: fast, mostly right, but needs clear instructions.
+* Title: **AI for Everyone: Your New Superpower**
+* Subtitle: *A Light-Hearted Guide to the Future*
+* Image: Futuristic lightbulb or robot with a friendly face
 
 ---
 
-### **Slide 3: Why Are We Here?**
+**Slide 2 — Why We’re Here**
 
-* Explore **homework, nutrition, travel, Excel, recipes**.
-* Goal: Move learners from **fear** → **utility** → **confidence**.
-
----
-
-### **Slide 4: Knowledge Check #1**
-
-**Question:** Which statement best describes AI?
-A. A conscious machine that thinks like humans
-B. A tool that predicts patterns and learns from data ✔
-C. A program that automatically encrypts files
-D. A robot that can replace your job instantly
+* AI is a **tool to augment your skills**, not replace you.
+* Common concerns: Job fear, privacy, skepticism.
+* Workshop Goal: Move from **fear → curiosity → mastery**.
+* Visual: Smiley face spectrum (Fear → Skeptic → Explorer)
 
 ---
 
-## **Module 2: Meet the AI Duo**
+**Slide 3 — Key Takeaway**
 
-### **Slide 5: Meet Gemini — The Scout**
-
-* **Strength:** Connected to the live internet; creative and flexible.
-* **Best for:** Brainstorming, writing emails, exploring new ideas.
-* **Example Prompt:** “Write a speech for a wedding.”
-* **Image Idea:** Scout with telescope
+* AI is a **collaborative assistant**: Think of it as a “**bright intern**.”
+* Fast, mostly right, but needs your direction.
+* Trainer Tip: Emphasize **human-in-the-loop** mindset.
 
 ---
 
-### **Slide 6: Meet NotebookLM — The Librarian**
+## **Module 2: Understanding AI**
 
-* **Strength:** Restricted to your uploaded documents → accurate outputs.
-* **Unique Feature:** Converts PDFs into **interactive audio guides**.
-* **Example:** Turn a sarcopenia PDF into a personal learning podcast.
-* **Image Idea:** Librarian with a stack of books
+**Slide 4 — What is AI?**
+
+* Machines doing **human-like tasks**: problem-solving, predictions, understanding language.
+* Key Idea: AI **amplifies human intelligence**.
+* Visual: Human brain + AI network overlay
 
 ---
 
-### **Slide 7: Knowledge Check #2**
+**Slide 5 — Large Language Models (LLMs)**
 
-**Question:** Which tool would you use to summarize a private PDF?
+* Example: **Google Gemini**
+* Think of it as **autocomplete on steroids**.
+* Reads **billions of texts** → predicts next words, sentences, or ideas.
+* Strengths: Essays, translations, summaries, guidance.
+* Limitations: No human understanding; can hallucinate.
+
+---
+
+**Slide 6 — Tokenization**
+
+* AI reads **tokens** (chunks of text: words, subwords, punctuation).
+* Analogy: **Lego bricks** → AI sees pieces, not the castle.
+* Tokenization allows AI to **understand context and patterns**.
+
+---
+
+### ✅ Knowledge Check #1
+
+**Q:** LLMs are best described as:
+A. Conscious thinking machines
+B. Predictive pattern engines ✔
+C. Database query tools
+D. Internet browsers
+
+---
+
+## **Module 3: The Two Pillars — Gemini vs NotebookLM**
+
+**Slide 7 — Gemini: The Brainstormer**
+
+* Strengths: Creativity, live internet, wide knowledge.
+* Use Cases: Writing speeches, summarizing articles, exploring ideas.
+* Visual: Scout with telescope
+
+---
+
+**Slide 8 — NotebookLM: The Librarian**
+
+* Strengths: Grounded, source-specific, precise.
+* Use Cases: Summarize PDFs, generate audio guides, personal research assistant.
+* Visual: Librarian in library with books and headphones
+
+---
+
+### ✅ Knowledge Check #2
+
+**Q:** Which tool should you use to summarize your own PDF?
 A. Gemini
 B. NotebookLM ✔
-C. Google Search
+
+---
+
+## **Module 4: Prompting Techniques**
+
+**Slide 9 — The P.R.T.C Framework**
+
+* Persona → Request → Target → Constraints
+* Example:
+
+> “Act as a professional Italian chef (Persona) + Write a pasta recipe (Request) + For a senior citizen (Target) + Under 500 calories, no salt (Constraints)”
+
+---
+
+**Slide 10 — Chain of Thought**
+
+* Ask AI to **think step-by-step** for complex tasks.
+* Example: Gardening prompt → Ask questions first → Suggest plants
+
+---
+
+**Slide 11 — Iterative Prompting**
+
+* Refine outputs:
+
+  * “Make it shorter”
+  * “Add a table”
+  * “Explain for beginners”
+* Tip: Treat AI as **first draft**
+
+---
+
+**Slide 12 — Gemini vs NotebookLM Prompts**
+
+| Tool       | Style               | Example                                                            |
+| ---------- | ------------------- | ------------------------------------------------------------------ |
+| Gemini     | Creative & Open     | “Brainstorm 5 gift ideas for a retiree who loves gardening & tech” |
+| NotebookLM | Grounded & Specific | “From uploaded PDF, what are the class dates?”                     |
+
+---
+
+### ✅ Knowledge Check #3
+
+**Q:** Which phrase helps prevent AI hallucinations?
+A. “Explain your reasoning”
+B. “Tell me if you don’t know” ✔
+C. “Make it funny”
+D. “Give 3 options”
+
+---
+
+## **Module 5: Lab 1 — Sarcopenia Project**
+
+**Slide 13 — Lab Objective**
+
+* Topic: **Age-related muscle loss**
+* Goal: Create a **personalized health plan** using AI
+* Steps: Research → Summarize → Personalize → Audio Guide
+
+---
+
+**Slide 14 — Step 1: Research with Gemini**
+
+* Prompt Example (Paste into Gemini):
+
+```
+Write a 1,000-word article titled "Muscle Strength for Seniors: Beating Sarcopenia."
+Include:
+1. Safe, Equipment-Free Strength Training (5 exercises, clear instructions, balance/fall prevention)
+2. Nutrition for Muscle Maintenance & Growth (protein targets, examples, hydration)
+Tone: Encouraging, confidence-building, no jargon, focus on safety.
+```
+
+---
+
+**Slide 15 — Step 2: Deep Dive with NotebookLM**
+
+* Save Gemini output as PDF or Google Doc
+* Upload to NotebookLM → Generate Audio Overview
+* Listen to AI-generated “Podcast”
+* Visual: Headphones icon, PDF → Audio waves
+
+---
+
+### ✅ Knowledge Check #4
+
+**Q:** Which AI phase ensures **personalized, safe advice**?
+A. Gemini Research
+B. NotebookLM Personalization ✔
+
+---
+
+## **Module 6: Lab 2 — Home & Work**
+
+**Slide 16 — Path A: Excel Wizard**
+
+* Scenario: Apply tax & discount formulas in Excel
+* Prompt Example:
+
+> “Write formula to add 7% tax in Column C, then 5% discount in Column D if price > $50. Explain formula.”
+
+---
+
+**Slide 17 — Path B: Kitchen Magic**
+
+* Scenario: Create meals from leftover ingredients
+* Prompt Example:
+
+> “Act as a Chef. I have 2 chicken breasts, sun-dried tomatoes, feta, spinach. Give 3 meal ideas under 20 minutes, including a kid-friendly option.”
+
+---
+
+**Slide 18 — NotebookLM Integration**
+
+* Upload Excel instructions or Recipes
+* Generate 1-week shopping list / troubleshooting guide / study notes
+* Visual: PDF → NotebookLM → Output
+
+---
+
+### ✅ Knowledge Check #5
+
+**Q:** You want AI to suggest meals using only your ingredients. Which tool?
+A. Gemini ✔
+B. NotebookLM
+C. Google
 D. Excel
 
 ---
 
-## **Module 3: The Art of Prompting — P.R.T.C.**
+## **Module 7: Ethical Use & Lifelong Learning**
 
-### **Slide 8: Why Prompts Matter**
+**Slide 19 — AI Hallucinations**
 
-* A prompt is like instructions to a **literal assistant**.
-* Poor prompts → generic results.
-* Good prompts → actionable, accurate output.
-
----
-
-### **Slide 9: The P.R.T.C. Method**
-
-* **Persona (P):** Assign a role → “Act as a physiotherapist.”
-* **Request (R):** Define the action → “Write a 5-day exercise plan.”
-* **Target (T):** Specify audience → “For seniors aged 70+.”
-* **Constraints (C):** Set limits → “No equipment, under 15 minutes per session.”
+* AI can sound confident but be wrong
+* Always **verify health, finance, legal info**
+* Treat AI output as **first draft**
 
 ---
 
-### **Slide 10: Knowledge Check #3**
+**Slide 20 — Continuous Learning**
 
-**Question:** What does the “Persona” in P.R.T.C. ensure?
-A. AI deletes unnecessary files
-B. AI adopts a defined role ✔
-C. AI ignores input
-D. AI generates random outputs
+* Reverse Prompt Exercise: “What prompt would create this output?”
+* Multimodal Practice: Images, ingredients → explanations
+* Community Engagement: Google AI Discord, AI for Good
 
 ---
 
-## **Module 4: The Lab — Beating Sarcopenia**
+### ✅ Knowledge Check #6
 
-### **Slide 11: Step 1 — Research Phase (Gemini)**
-
-* Use Gemini to generate a **friendly 1,000-word article** on:
-
-  * Safe, equipment-free strength exercises
-  * Nutrition for seniors
-* Focus on **balance, safety, independence**, and easy-to-understand language.
+**Q:** AI’s main limitation is:
+A. Cannot learn patterns
+B. Generates plausible but sometimes wrong info ✔
+C. Slow computations
+D. Needs coding skills
 
 ---
 
-### **Slide 12: Step 2 — Deep Dive (NotebookLM)**
+## **Module 8: Trainer Tips & Classroom Management**
 
-* Upload your Gemini article as PDF or Google Doc.
-* Use **Notebook Guide → Generate Audio Overview**.
-* Listen to your **AI podcast** through headphones or speakers.
+**Slide 21 — Mindset**
 
----
+* Calm guide, avoid jargon, encourage mistakes
+* AI = “Fallible Intern” → human checks work
 
-### **Slide 13: Knowledge Check #4**
+**Slide 22 — Managing Tech**
 
-**Question:** What is the key difference between Gemini and NotebookLM?
-A. Gemini is offline, NotebookLM is online
-B. Gemini uses the internet; NotebookLM is grounded in uploaded content ✔
-C. Gemini is for PDFs only
-D. NotebookLM cannot summarize files
+* Account & Wi-Fi checks
+* Stagger NotebookLM audio to prevent crashes
+* Celebrate “weird” AI answers → teach predictive nature
 
----
+**Slide 23 — Handling Questions**
 
-## **Module 5: AI for Everyday Life — Quick Hacks**
-
-### **Slide 14: Excel Wizardry**
-
-* Example Prompt:
-
-> “I have prices in Column B. Add 7% tax in Column C and a 5% discount for items over $50 in Column D. Explain formulas.”
-
-### **Slide 15: Kitchen Magic**
-
-* Example Prompt:
-
-> “I have chicken, sun-dried tomatoes, feta, and spinach. Suggest 3 meals under 20 minutes, including one kid-friendly option.”
+| Question                     | Suggested Response                               |
+| ---------------------------- | ------------------------------------------------ |
+| Is AI stealing from writers? | It learns patterns to **synthesize new value**   |
+| Can I trust medical advice?  | AI is a **starting point**, not final authority  |
+| Will it become sentient?     | No, it predicts text like **super autocomplete** |
 
 ---
 
-### **Slide 16: Knowledge Check #5**
+**Slide 24 — Knowledge Check (Trainer Only)**
 
-**Question:** Which tool should you use for a “live recipe suggestion”?
-A. NotebookLM
-B. Gemini ✔
-C. Excel
-D. Python
+* Quick-fire questions for mid-day break:
 
----
-
-## **Module 6: AI Ethics & Limitations**
-
-### **Slide 17: Hallucinations**
-
-* AI can sound confident but may be **wrong**.
-* **Always verify** health, finance, or legal advice with experts.
-
-### **Slide 18: Ethical Use**
-
-* AI is **a collaborator**, not a replacement.
-* Respect copyright; use AI to **synthesize** and **personalize** information.
+1. To plan a trip → Gemini
+2. To summarize your PDF → NotebookLM
+3. Role & context improve output → Yes
+4. Grounding in NotebookLM → limits to uploaded docs
 
 ---
 
-### **Slide 19: Knowledge Check #6**
+## **Module 9: AI Workflow Diagram**
 
-**Question:** AI generates hallucinations because:
-A. It is conscious
-B. It predicts likely outcomes from patterns ✔
-C. It deliberately lies
-D. It searches the web for verified facts
-
----
-
-## **Module 7: Reinforcing Knowledge — IRAT & TRAT**
-
-### **Slide 20: Quick Quiz**
-
-* **IRAT (Individual):** Check your own understanding.
-* **TRAT (Team):** Discuss answers with peers to reinforce learning.
-
----
-
-### **Slide 21: Sample IRAT Questions**
-
-1. Which ability best defines AI?
-2. Relationship between AI & ML?
-3. Supervised vs. unsupervised learning?
-4. Tokenization in LLMs?
-5. Purpose of RAG in NotebookLM?
-
----
-
-### **Slide 22: Knowledge Check #7**
-
-**Question:** k-Means clustering is an example of:
-A. Supervised learning
-B. Unsupervised clustering ✔
-C. Reinforcement learning
-D. Neural networks
-
----
-
-## **Module 8: AI Workflow Recap (ASCII Diagram)**
+**Slide 25 — ASCII Workflow**
 
 ```
-          ┌───────────────┐
-          │ Step 1:       │
-          │ Generate       │
-          │ Article        │
-          │ (Gemini)       │
-          └──────┬────────┘
-                 │
-                 ▼
-          ┌───────────────┐
-          │ Step 2:       │
-          │ Save as PDF   │
-          │ & Upload      │
-          │ (NotebookLM)  │
-          └──────┬────────┘
-                 │
-                 ▼
-          ┌───────────────┐
-          │ Step 3:       │
-          │ Generate       │
-          │ Audio Overview │
-          └──────┬────────┘
-                 │
-                 ▼
-          ┌───────────────┐
-          │ Step 4:       │
-          │ IRAT/TRAT Quiz │
-          │ & Discussion  │
-          └───────────────┘
+  Step 1: Generate Article (Gemini)
+          │
+  Step 2: Save & Export as PDF
+          │
+  Step 3: Upload to NotebookLM
+          │
+  Step 4: Generate Audio/Video
+          │
+  Step 5: IRAT/TRAT Quiz & Discussion
 ```
 
----
-
-## **Module 9: Wrap-Up & Takeaways**
-
-### Slide 23: Your New Life with AI
-
-* AI augments human capability; it doesn’t replace judgment.
-* Gemini = **creative breadth**, NotebookLM = **precision & grounding**.
-* P.R.T.C. prompts = maximize effectiveness.
-* IRAT/TRAT = solidify individual and collaborative mastery.
-* Fliki = converts written content to **accessible multimedia**.
+* Visual: Flow arrows + icons for each step
 
 ---
 
-### Slide 24: Knowledge Check #8 (Final Review)
+## **Module 10: Quick-Reference & Life Hacks**
 
-**Question:** What are the four components of P.R.T.C.?
-A. Persona, Request, Target, Constraints ✔
-B. Predict, Repeat, Test, Confirm
-C. Plan, Respond, Train, Check
-D. Process, Review, Teach, Capture
+**Slide 26 — Cheat Sheet**
 
----
-
-### Slide 25: Q&A & Feedback
-
-* **QR Code:** Link to Google Feedback Form
-* **Quote:** “AI won't replace people, but people who use AI will replace those who don't.”
+* **Ctrl + C / V / P** → Copy, Paste, Print
+* P.R.T.C. formula
+* Tool selection (Gemini = creative, NotebookLM = grounded)
+* Troubleshooting: “Explain like I’m 5,” “Give short version,” “Try again”
 
 ---
 
-✅ **Enhancements Added:**
+**Slide 27 — Closing Slide**
 
-* Knowledge checks after each key module (total 8)
-* Full P.R.T.C., Gemini/NotebookLM, Lab workflow, Sarcopenia lab, and everyday hacks kept
-* ASCII workflow diagram included
-* Ethical reminders and hallucination warning integrated
-* Clear, visually-friendly trainer guidance incorporated
+* “AI won’t replace people, but people who use AI will replace those who don’t.”
+* QR code → feedback form
+* Visual: Happy AI + human handshake
 
 ---
 
+✅ This version includes:
+
+* Knowledge checks **after each major concept**
+* Labs with **step-by-step prompts**
+* Trainer tips interwoven
+* Layman-friendly **analogies and visuals**
+* Clear distinction between **Gemini vs NotebookLM**
+* Ethics, iterative prompting, and workflow
+
+---
