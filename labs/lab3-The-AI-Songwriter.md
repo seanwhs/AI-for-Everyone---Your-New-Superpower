@@ -1,36 +1,35 @@
-## Lab Guide: The AI Songwriter (labs/lab2-song-gen.md)
+# Lab Guide: The AI Composer 
 
 ---
 
 ## Objective
 
-Transform technical or poetic text into an original song using NotebookLM’s creative audio capabilities.
+Transform poetic lyrics into a raw, intimate vocal track using the Folk and Indie Acoustic style.
 
 ## Step 1: Preparation (The Lyrics)
 
-1. Open the lyrics for **《晨光》** provided in your project folder.
-2. Copy the entire text, including the structure tags like **[Verse]**, **[Chorus]**, and **[Bridge]**.
-3. Save this text as a **PDF** or a **Google Doc** titled "Morning Light Lyrics."
+1. Open the lyrics for **《晨光》(Morning Light)**.
+2. Highlight and **Copy** the entire text, ensuring you include the structure tags like `[Verse]`, `[Chorus]`, and `[Outro]`.
 
-## Step 2: The Studio (NotebookLM)
+## Step 2: The Studio (Suno AI)
 
-1. Open [NotebookLM](https://notebooklm.google/).
-2. Create a new notebook titled **"AI Music Project."**
-3. Upload your **Morning Light Lyrics** PDF as the primary source.
-4. **Context Check:** Ask the chat, "What is the emotional tone of these lyrics?" to ensure the AI understands the "gentle" and "hopeful" themes.
+1. Open [Suno.com](https://suno.com).
+2. Click **Create** and toggle on **Custom Mode**.
+3. Paste your lyrics into the **Lyrics** box.
+4. In **Style of Music**, type:
+> *Indie folk, raw acoustic guitar, intimate, whispering vocals, minimalist, folk-pop, campfire atmosphere, slow tempo.*
+
+
+5. Title the song **"Morning Light (Acoustic)."**
 
 ## Step 3: Audio Generation
 
-1. Click on **Notebook Guide** in the bottom right corner.
-2. Look for the **Deep Dive Audio Overview** section.
-3. Click **Generate**.
-4. **The Result:** NotebookLM will generate a conversational "podcast" where the AI hosts discuss the song's meaning, structure, and emotional weight, effectively bringing the written lyrics to life through verbal analysis and synthetic performance.
+1. Click **Create**.
+2. Wait for the AI to generate two distinct versions of your song.
+3. Listen for the version where the **acoustic guitar** feels most natural and the vocals sound **sincere and personal**.
+4. Click the **three dots (...)** and select **Download Audio** to save your track.
 
 ---
 
-> **Note:** While NotebookLM creates an "Audio Overview" (a discussion about the text), you can prompt the chat to "Write a melody description for these lyrics" to help you imagine how the song would sound in different genres!
-
----
-
-
+> **Tip:** If the song feels too fast, try adding the keyword **"melancholic yet hopeful"** to the Style box to slow the AI down and add more emotional weight to the performance.
 
