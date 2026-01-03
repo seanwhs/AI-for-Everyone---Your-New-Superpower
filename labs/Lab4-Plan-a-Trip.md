@@ -1,9 +1,3 @@
-Not stuck at all—just making sure the logistics for a multi-leg bus journey are precise! Since you are transiting through **Larkin Sentral**, your strategy changes from a direct route to a "Hub-and-Spoke" model.
-
-Here is the **Full Lab Rewrite** tailored for your specific route, public transport mode, and payment methods.
-
----
-
 # 📂 Lab: AI Travel Co-Pilot Workshop
 
 **Subject:** Digital Planning for Cross-Border Transit Logistics
@@ -107,4 +101,3 @@ Here is the **Full Lab Rewrite** tailored for your specific route, public transp
 
 ---
 
-**Next Step:** Would you like me to generate a **step-by-step guide on how to get from Larkin to the Pontian Bus Bay**, including which signs to look for?
