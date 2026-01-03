@@ -1,3 +1,7 @@
+I have fully updated the labsheet to include the specific **prompts for Parts 4 and 5**, ensuring they focus on your transit-only requirements. I have also generated a **visual roadmap** for your journey from Singapore to Pontian to help you see the logistics at a glance.
+
+---
+
 # 📂 Lab: AI Travel Co-Pilot Workshop
 
 **Subject:** Digital Planning for Cross-Border Transit Logistics
@@ -9,8 +13,6 @@
 ---
 
 ## 🟢 Part 1: The "Master Prompt" (Multi-Leg Transit)
-
-*Because you are transiting through Larkin, the AI needs to account for transfer times and regional bus schedules (like Maju or Causeway Link).*
 
 **Task:** Copy and paste this prompt into Gemini or ChatGPT.
 
@@ -29,8 +31,6 @@
 
 ## 🟡 Part 2: Fact-Checking & Transit Verification
 
-*Larkin is a massive hub. AI will help you navigate the specific platforms and 2026 requirements.*
-
 **Task:** Use a search-enabled AI to verify these 2026 details:
 
 1. **Larkin to Pontian:** *"What are the current bus numbers from Larkin Sentral to Pontian Interchange in 2026? (e.g., Maju 96 or Causeway Link 606). What is the frequency?"*
@@ -41,46 +41,31 @@
 
 ## 🔵 Part 3: The "Monsoon-Ready" Security Gear
 
-*As a security officer, you know that being 'on foot' during a monsoon requires better waterproof 'Access Control' for your gear.*
-
 **Task:** Ask the AI to generate a list for a **Public Transport traveler**.
 
-### **Officer's Transit Packing List (Integrated Content):**
-
-* **The "Dry Hub" Bag:** A **waterproof backpack cover** or dry bag. Since you’ll be walking between bus bays, keeping your clothes dry is priority #1.
-* **Footwear:** **Anti-slip tactical sandals** or shoes. Larkin and Pontian terminal floors become slip hazards ("Code Grey" zones) when wet.
-* **Tech:** A **Power Bank** and a **physical printout** of your hotel booking. If the rain kills your phone, you need a hard copy to show a taxi driver.
-* **Cash Management:** A **waterproof pouch** for Ringgit. Many regional buses still prefer exact change (Cash).
+* **Footwear:** Tactical anti-slip sandals (to handle wet bus terminal floors).
+* **Waterproofing:** Waterproof backpack cover and phone dry-bag.
+* **Tech:** 20,000mAh Power Bank (essential for Grab and Bus apps).
 
 ---
 
 ## 🏨 Part 4: Transit-Centric Accommodation
 
-*Without a car, your hotel choice is your 'Base of Operations.' It must be near the Pontian Bus Interchange.*
+**Task:** Use the following prompt to finalize your "Base of Operations."
 
-**Task:** Compare these AI-selected hotels (approx. S$50–$70/night):
-
-1. **Wan Loong Hotel:** (~100m from Interchange). The ultimate transit hotel. No Grab needed to check in.
-2. **The Oikos Hotel:** (~300m from Interchange). Modern and close to the **Heng Heng Wanton Mee** stall.
-3. **Princess Hotel:** (~800m from Interchange). Use a **Grab** (approx. RM 5) from the bus terminal if it's raining.
+> **Prompt:** "Identify 3 hotels in Pontian Kechil that are less than a **5-minute walk from the Pontian Bus Interchange**. Compare them by **safety ratings, recent cleanliness reviews from 2025**, and their proximity to local food like **Heng Heng Wanton Mee**. Ensure they fit a budget of **S$60 per night**."
 
 ---
 
 ## 🟠 Part 5: Indoor "Plan B" (Wait Out the Rain)
 
-*When the rain hits, stay undercover. Use the Grab app to hop between these spots.*
+**Task:** Use the following prompt to find "Extraction Points" during a heavy downpour.
 
-**Task:** Research these indoor spots in Pontian Kechil:
-
-1. **Yearn Cafe:** Minimalist and air-conditioned. Great for "Admin Time" to plan your next move.
-2. **Red People Cafe (红人馆):** A cozy spot to wait for the rain to stop before heading to a seafood dinner.
-3. **Pontian Plaza:** A local mall near the terminal. Good for last-minute "Shopping" or local snacks under a solid roof.
+> **Prompt:** "List 5 indoor, air-conditioned locations in **Pontian Kechil** where a couple can wait out a 2-hour monsoon rainstorm. Include a mix of **modern cafes** with Wi-Fi and **local cultural spots** (like bakeries or mini-malls). Rank them by their **Grab-friendliness** (easy pick-up/drop-off points)."
 
 ---
 
 ## 🔴 Part 6: The Budget Breakdown ($500 SGD Target)
-
-*Public transport is cheaper than driving, allowing for a better "Seafood Fund."*
 
 | Category | Item | Budget (S$) | Budget (RM) |
 | --- | --- | --- | --- |
@@ -93,11 +78,28 @@
 
 ---
 
+## 🖼️ Visualizing Your Trip: The Mission Map
+
+### **The Route Flow**
+
+1. **Singapore (Pinnacle@Duxton)**  *Grab/Walk*  **Queen Street Terminal**
+2. **Queen Street**  *CW2 Bus*  **Johor Customs (CIQ)**  **Larkin Sentral**
+3. **Larkin Sentral**  *Maju 96 Bus*  **Pontian Bus Interchange**
+4. **Pontian Interchange**  *4min Walk*  **Your Hotel**
+
+### **The Destination Layout**
+
+* **The Hub:** Pontian Bus Interchange (Everything is centered here).
+* **The Food:** Wanton Mee is 3 mins North; Seafood is 8 mins West by the seaside.
+* **The Outpost:** Tanjung Piai is a 25-minute Grab ride South-East.
+
+---
+
 ## 📝 Lab Reflection (The "Human Touch")
 
-1. **AI Discovery:** Did the AI mention that **Heng Heng Wanton Mee** is just a short walk from the Pontian terminal? ____________________
-2. **Critical Check:** Have you downloaded the **Grab App** and linked a **Credit Card** for seamless payment in MYR? ____________________
-3. **Officer's Perspective:** Navigating Larkin Sentral during a monsoon—does it require more "Crowd Control" skills than a busy day at SGH? ____________________
+1. **AI Discovery:** Did the AI mention the **Pontian Wholesale Fish Market** (best at 10 AM)? ____________________
+2. **Critical Check:** Have you downloaded the **Grab App** and linked a **Credit Card**? ____________________
+3. **Officer's Perspective:** Navigating Larkin during a monsoon—does it require more "Crowd Control" skills than SGH? ____________________
 
 ---
 
