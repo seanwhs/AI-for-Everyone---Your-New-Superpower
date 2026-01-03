@@ -15,12 +15,12 @@
 **Task:** Copy and paste this prompt into Gemini or ChatGPT.
 
 > **Master Prompt:**
-> "Act as a Johor transit expert. Plan a **3-day couple's trip to Pontian** for Jan/Feb 2026.
-> * **Route:** Singapore  Larkin Sentral  Pontian Bus Interchange.
+> "Act as a Johor transit expert. Plan a **3-day Singapore couple's trip to Pontian** for Jan/Feb 2026.
+> * **Route:** Singapore (Pinnacle@Duxton) to 'Larkin Sentral' to  'Pontian Bus Interchange'.
 > * **Transport:** Public Bus (e.g., SBS/Causeway Link) and Grab only.
 > * **Payment:** Cash, Credit Card, and Grab App.
 > * **Accommodation:** Recommend a hotel in Pontian Kechil within **walking distance of the Bus Interchange** that is clean and safe.
-> * **Interests:** High priority on **Heng Heng Wanton Mee**, **Kukup Seafood**, and **Tanjung Piai**.
+> * **Interests:** High priority on **Heng Heng Wanton Mee**, **Fresh Seafood**, and **Tanjung Piai**.
 > * **Constraint:** Provide a 'Plan B' for monsoon rain in the afternoons."
 > 
 > 
