@@ -39,7 +39,34 @@ Follow these steps during our afternoon lab session:
 
 Copy and paste this prompt into [Gemini](https://gemini.google.com):
 
-> "Act as a Senior Health Consultant. Write a 500-word article titled 'Muscle Strength for Seniors: Beating Sarcopenia.' Include a list of 5 safe, equipment-free exercises like chair squats or wall push-ups. Use a friendly, encouraging tone."
+```
+**Write a 1,000-word article titled “Muscle Strength for Seniors: Beating Sarcopenia.”
+The article should explain sarcopenia in clear, non-technical language and emphasize that muscle strength can be rebuilt at any age.
+
+Include two core sections:
+
+1. Safe, Equipment-Free Strength Training
+
+List and explain 5 senior-safe exercises (e.g., chair squats, wall push-ups, heel raises, bird-dogs, standing side leg lifts).
+
+Provide simple instructions, safety cues, and daily-life benefits for each exercise.
+
+Emphasize balance, fall prevention, and independence rather than appearance or intensity.
+
+2. Nutrition for Muscle Maintenance & Growth
+
+Explain the importance of adequate protein intake for seniors (including anabolic resistance).
+
+Recommend practical protein targets per meal (not just per day).
+
+Include examples of easy-to-digest, senior-friendly protein foods (e.g., eggs, fish, yogurt, tofu, beans).
+
+Briefly cover hydration and key nutrients that support muscle function (e.g., vitamin D, omega-3s).
+
+Use a warm, encouraging, and confidence-building tone.
+Avoid fitness hype or medical jargon.
+Focus on safety, consistency, and quality of life.**
+```
 
 ### Step 2: The Deep Dive (NotebookLM)
 
