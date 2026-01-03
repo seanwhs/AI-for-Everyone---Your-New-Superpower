@@ -1,18 +1,24 @@
-I have fully updated the labsheet to include the specific **prompts for Parts 4 and 5**, ensuring they focus on your transit-only requirements. I have also generated a **visual roadmap** for your journey from Singapore to Pontian to help you see the logistics at a glance.
-
----
-
 # 📂 Lab: AI Travel Co-Pilot Workshop
 
 **Subject:** Digital Planning for Cross-Border Transit Logistics
-
 **Case Study:** Pontian via Larkin Sentral (Jan/Feb 2026)
-
 **Objective:** Leverage AI to plan a budget-friendly (S$500) 3-day trip using Buses and Grab.
 
 ---
 
-## 🟢 Part 1: The "Master Prompt" (Multi-Leg Transit)
+## 🟢 Part 1: Discovery & Visualization (Layla.ai)
+
+*Before technical planning, use a visual AI to see the destination.*
+
+**Task:** Visit **[layla.ai](https://layla.ai)** or use the Layla app.
+
+1. Search for: *"Pontian Kechil seafood and Kukup stilt village."*
+2. **Goal:** Use the AI-curated video reels to scout the walking path between the Pontian Bus Interchange and the seaside.
+3. **Ask Layla:** *"Show me the best sunset spots in Pontian that are under shelter."*
+
+---
+
+## 🔵 Part 2: The "Master Prompt" (Multi-Leg Transit)
 
 **Task:** Copy and paste this prompt into Gemini or ChatGPT.
 
@@ -29,7 +35,7 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🟡 Part 2: Fact-Checking & Transit Verification
+## 🟡 Part 3: Fact-Checking & Transit Verification
 
 **Task:** Use a search-enabled AI to verify these 2026 details:
 
@@ -39,7 +45,7 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🔵 Part 3: The "Monsoon-Ready" Security Gear
+## 🛡️ Part 4: The "Monsoon-Ready" Security Gear
 
 **Task:** Ask the AI to generate a list for a **Public Transport traveler**.
 
@@ -49,7 +55,7 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🏨 Part 4: Transit-Centric Accommodation
+## 🏨 Part 5: Transit-Centric Accommodation
 
 **Task:** Use the following prompt to finalize your "Base of Operations."
 
@@ -57,7 +63,7 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🟠 Part 5: Indoor "Plan B" (Wait Out the Rain)
+## 🟠 Part 6: Indoor "Plan B" (Wait Out the Rain)
 
 **Task:** Use the following prompt to find "Extraction Points" during a heavy downpour.
 
@@ -65,7 +71,7 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🔴 Part 6: The Budget Breakdown ($500 SGD Target)
+## 🔴 Part 7: The Budget Breakdown ($500 SGD Target)
 
 | Category | Item | Budget (S$) | Budget (RM) |
 | --- | --- | --- | --- |
@@ -78,26 +84,9 @@ I have fully updated the labsheet to include the specific **prompts for Parts 4 
 
 ---
 
-## 🖼️ Visualizing Your Trip: The Mission Map
-
-### **The Route Flow**
-
-1. **Singapore (Pinnacle@Duxton)**  *Grab/Walk*  **Queen Street Terminal**
-2. **Queen Street**  *CW2 Bus*  **Johor Customs (CIQ)**  **Larkin Sentral**
-3. **Larkin Sentral**  *Maju 96 Bus*  **Pontian Bus Interchange**
-4. **Pontian Interchange**  *4min Walk*  **Your Hotel**
-
-### **The Destination Layout**
-
-* **The Hub:** Pontian Bus Interchange (Everything is centered here).
-* **The Food:** Wanton Mee is 3 mins North; Seafood is 8 mins West by the seaside.
-* **The Outpost:** Tanjung Piai is a 25-minute Grab ride South-East.
-
----
-
 ## 📝 Lab Reflection (The "Human Touch")
 
-1. **AI Discovery:** Did the AI mention the **Pontian Wholesale Fish Market** (best at 10 AM)? ____________________
+1. **AI Discovery:** Did **Layla.ai** show you a specific dish or view that made you excited? ____________________
 2. **Critical Check:** Have you downloaded the **Grab App** and linked a **Credit Card**? ____________________
 3. **Officer's Perspective:** Navigating Larkin during a monsoon—does it require more "Crowd Control" skills than SGH? ____________________
 
