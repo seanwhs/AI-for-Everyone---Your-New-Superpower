@@ -1,24 +1,24 @@
-### Updated Lab Guide (The "Full Video" Workflow)
+# **Lab 1 — Create a video about beating Sarcopena** 
 
-## Step 1: Research (Gemini)
+## **Step 1: Research & Article Creation (Gemini)**
 
-1. Use the **Consultant Prompt** in Gemini to generate a 700-word article.
-   > Act as a Senior Health Consultant. Write a **700-word** article titled "Beating Sarcopenia: A Senior’s Guide to Strength." Focus on **leucine-rich nutrition** and a **5-step resistance routine**. Use an encouraging tone, clear headings, and bullet points. Include a safety disclaimer.
+1. Use the **Consultant Prompt** in Gemini to generate a detailed article.
+2. Example prompt:
 
-3. Ensure it has a 5-step exercise routine.
-4. Download the text as a **PDF**.
+   > Act as a Senior Health Consultant. Write a **700-word article** titled *"Beating Sarcopenia: A Senior’s Guide to Strength."* Focus on **leucine-rich nutrition** and a **5-step resistance routine**. Use an encouraging tone, clear headings, and bullet points. Include a safety disclaimer.
+   
+3. Confirm the article includes a **5-step exercise routine**.
+4. Save the finished article as a **PDF**.
 
-## Step 2: Video Creation (NoteGPT or Fliki)
+## **Step 2: Video Creation (Fliki)**
 
-1. Upload your PDF to [NoteGPT](https://notegpt.io/pdf-to-video) or [Fliki](https://fliki.ai).
-2. These tools convert **PDF pages into scenes** with AI voiceovers.
-3. Choose a "Calm" or "Professional" voice.
+1. Upload your PDF to [Fliki](https://fliki.ai) 
+2. These platforms automatically convert **PDF pages into video scenes** with AI voiceovers.
 
-## Step 3: Production
+## **Step 3: Production & Export**
 
-1. Click **Generate** to create a full-length video (not just a clip).
-2. Review the captions for accuracy against your PDF.
-3. Export as an **MP4**.
+1. Click **Generate** to produce the video.
+2. Export the final video as an **MP4**.
 
 ---
 
