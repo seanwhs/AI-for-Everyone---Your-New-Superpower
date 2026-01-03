@@ -6,7 +6,7 @@
 
 ## Section 0: AI Course Workflow (Visual Overview)
 
-Here’s a high-level diagram of the course flow for quick reference:
+A high-level view of the course helps learners see **where they are, and where they’re going**:
 
 ```
           ┌───────────────┐
@@ -43,7 +43,7 @@ Here’s a high-level diagram of the course flow for quick reference:
 
 | Time      | Session                       | Trainer’s Tactical Objective                                                                                                    | The "Aha!" Moment                                                                           |
 | --------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **09:00** | **The Hook**                  | Icebreaking & fear reduction. Start with a live demo of Gemini making a mistake to humanize AI.                                 | Students realize AI isn’t omniscient; it’s a fallible but powerful assistant.               |
+| **09:00** | **The Hook**                  | Icebreaking & fear reduction. Live demo of Gemini making a mistake to humanize AI.                                              | Students realize AI isn’t omniscient; it’s a fallible but powerful assistant.               |
 | **10:30** | **Coffee Break**              | Trainer ensures all participants are logged into Gemini.                                                                        |                                                                                             |
 | **10:45** | **Gemini 101**                | Mastering PRTC: moving from "Google Search" behavior to "Managerial Instruction."                                               | A short, 3-word prompt fails; a full PRTC prompt delivers a perfect meal plan.              |
 | **12:00** | **Lunch**                     | Trainer identifies 2–3 students for 5-min check-ins after lunch.                                                                |                                                                                             |
@@ -58,16 +58,18 @@ Here’s a high-level diagram of the course flow for quick reference:
 
 ### 2.1 Understanding Large Language Models (LLMs)
 
-AI is **not magic**. LLMs, like Gemini, are trained on billions of texts and function as advanced statistical predictors.
+* AI is **not magic**—it is a **statistical predictor** trained on billions of texts.
+* **Analogy:** Think of AI like your phone’s autocomplete—but supercharged. It guesses the next word based on patterns it learned from all the text it has “read.”
+* **Implication:** AI can mimic reasoning, coding, and creativity—but it does **not understand** concepts the way humans do.
 
-* **Analogy:** Imagine your phone’s autocomplete—but on steroids. AI predicts the next token (word/piece) in a sequence using probability, not memory.
-* **Implication:** It can mimic reasoning, coding, and creativity—but it doesn’t “understand” or have consciousness.
+---
 
 ### 2.2 Tokenization: How AI Sees Words
 
-* Words → Tokens (chunks of characters)
-* AI builds answers based on **patterns & relationships**, not definitions.
-* This explains why AI excels at structured tasks (like code) but can stumble at poetic nuance.
+* AI doesn’t see words the way we do; it sees **tokens** (chunks of letters, words, or subwords).
+* It constructs answers by analyzing **relationships and patterns between tokens**, not by recalling meanings.
+* **Result:** AI can excel at structured tasks like coding or math but may misinterpret poetic language or subtle humor.
+* **Example:** “chair squats” and “wall push-ups” are tokens it can combine into a clear exercise guide, even if it doesn’t “know” what a squat feels like.
 
 ---
 
@@ -75,62 +77,83 @@ AI is **not magic**. LLMs, like Gemini, are trained on billions of texts and fun
 
 ### 3.1 Google Gemini: Broad-Spectrum Creativity
 
-* **Strength:** Access to live internet + high creativity.
-* **Best Use:** Brainstorming, summarizing general knowledge, or generating real-time insights.
-* **Example:** “Write a speech for a wedding” or “Translate travel rules in 2026.”
+* **Strength:** Access to live internet and high creative freedom.
+* **Best Use:** Brainstorming, summarizing broad topics, or generating real-time insights.
+* **Example:** “Write a wedding speech” or “Translate 2026 travel rules.”
 
 ### 3.2 NotebookLM: Precision & Grounding
 
-* **Strength:** Restricted to uploaded documents → accurate, source-grounded insights.
+* **Strength:** Restricted to uploaded documents → highly accurate, **source-grounded** insights.
 * **Unique Feature:** Converts static PDFs into interactive, conversational, or audio content.
-* **Example:** Turning a sarcopenia PDF into a personal audio guide or a podcast-style learning session.
+* **Example:** Transform a sarcopenia PDF into a **personalized audio guide or mini-podcast.**
 
 ---
 
-## Section 4: PRTC Framework for Prompt Engineering
+## Section 4: The PRTC Framework for Prompt Engineering
 
-### 4.1 Moving Beyond “Ask”
+### 4.1 Why Simply “Asking” Isn’t Enough
 
-* Prompts = Instructions. Quality prompts = quality output.
-* Bad prompt → generic or irrelevant output.
+* Prompts = Instructions. **Quality prompts = quality output.**
+* Generic prompts yield generic results.
+* Specific instructions with context produce **reliable, actionable outputs.**
 
-### 4.2 The PRTC Method
+---
 
-* **Persona (P):** Define AI’s role. e.g., “Act as a physiotherapist.”
-* **Request (R):** Define what to do. e.g., summarize, list, critique.
-* **Target (T):** Define audience. e.g., beginner, senior citizen.
-* **Constraints (C):** Boundaries to avoid errors. e.g., word limit, accessible language.
+### 4.2 The PRTC Method (Persona, Request, Target, Constraints)
 
-**Tip:** “Constraints are as important as instructions—they prevent hallucination and keep content safe.”
+* **Persona (P):** Assign AI a role.
+
+  * *Example:* “Act as a physiotherapist.”
+  * Ensures professional tone and domain-specific knowledge.
+
+* **Request (R):** Specify the task.
+
+  * *Example:* “List 5 senior-friendly exercises.”
+  * Defines whether AI summarizes, lists, critiques, or analyzes.
+
+* **Target (T):** Define audience & tone.
+
+  * *Example:* “Explain for a 70-year-old beginner.”
+  * Adjusts simplicity, clarity, and examples.
+
+* **Constraints (C):** Boundaries for length, style, or content.
+
+  * *Example:* “Max 200 words; only chair or dumbbell exercises.”
+  * Prevents hallucinations or overly generic content.
+
+**Tip:** “Constraints are as important as instructions—they keep AI safe, relevant, and user-friendly.”
 
 ---
 
 ## Section 5: Applying Knowledge — Sarcopenia Case Study
 
-### 5.1 Bridging Science and Action
+### 5.1 From Science to Action
 
-* **Phase 1 (Research):** Gemini converts dense clinical studies into plain-language exercise guides.
-* **Phase 2 (Personalization):** NotebookLM analyzes your specific PDF; optionally, Fliki generates a short, narrated video.
-* **Outcome:** Personalized, actionable health plan in under 30 minutes.
+* **Phase 1:** Gemini converts dense clinical research into **plain-language exercise and nutrition guides**.
+* **Phase 2:** NotebookLM analyzes your PDF to answer questions like, “Which exercises should I skip if I have knee pain?”
+* **Optional Multimedia:** Fliki converts the PDF into a **2-min narrated video**, ideal for seniors.
 
 **Example Prompt for Fliki:**
 
-> “Take `sarcopenia-guide.pdf` and create a 2-min explainer video narrated in a calm, senior-friendly tone.”
+> “Take `sarcopenia-guide.pdf` and create a 2-min explainer video narrated in a calm, senior-friendly tone with simple visuals.”
+
+*Outcome:* Personalized, actionable health plan in under 30 minutes.
 
 ---
 
 ## Section 6: Ethical Usage & Future Learning
 
-### 6.1 Hallucination & Verification
+### 6.1 Hallucinations & Human Oversight
 
-* AI can confidently state falsehoods.
-* Always use a **Human-in-the-Loop** check for critical advice.
+* AI may confidently produce incorrect information.
+* Always **verify critical outputs**—especially for medical, financial, or legal decisions.
+* Treat AI output as a **first draft**, not final authority.
 
 ### 6.2 Continued Practice
 
-1. Reverse Prompt Exercise → Determine what prompt creates a target output.
-2. Multimodal Practice → Ask AI to explain images, PDFs, or complex manuals.
-3. Community Engagement → Join AI forums for peer learning.
+1. **Reverse Prompt Exercise:** Determine the prompt that would produce a desired output.
+2. **Multimodal Practice:** Ask AI to explain photos, diagrams, PDFs, or manuals.
+3. **Community Engagement:** Join AI forums like **Google’s AI Discord** or **AI for Good** to see practical applications.
 
 ---
 
@@ -138,39 +161,40 @@ AI is **not magic**. LLMs, like Gemini, are trained on billions of texts and fun
 
 ### 7.1 Individual Readiness Assurance Test (IRAT)
 
-| #  | Question                                       | Options                                                                                                                                         |
-| -- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | Which function is central to AI?               | A. Execute complex tasks & improve with data <br> B. Optimize SQL queries <br> C. Run iterative algorithms faster <br> D. Prevent cyber attacks |
-| 2  | What type of tasks is AI commonly used for?    | A. Data similarity calculations <br> B. Text generation <br> C. Database normalization <br> D. Implementing hash tables                         |
-| 3  | How are AI and ML related?                     | A. Unrelated <br> B. AI is a technique within ML <br> C. ML is a technique within AI <br> D. ML = traditional programming                       |
-| 4  | kNN is an example of which learning type?      | A. Deep RL <br> B. Supervised (labelled data) <br> C. Unsupervised (unlabelled data) <br> D. Inertia minimization                               |
-| 5  | k-Means clustering is an example of?           | A. Supervised learning <br> B. Full labelled training set <br> C. Nearest neighbor voting <br> D. Unsupervised clustering                       |
-| 6  | ML Workflow: Step after "Choose a Model"?      | A. Evaluate model <br> B. Prepare data <br> C. Tune parameters <br> D. Train model                                                              |
-| 7  | Sklearn’s KMeans estimator is in which module? | A. sklearn.neighbors <br> B. sklearn.model_selection <br> C. numpy <br> D. sklearn.cluster                                                      |
-| 8  | Which is not a required ML step?               | A. Gather data <br> B. Tune parameters <br> C. Make predictions <br> D. Implement encryption                                                    |
-| 9  | Overfitting is?                                | A. Learning noise in training data <br> B. Clustering <br> C. Underfitting <br> D. Convergence                                                  |
-| 10 | Features in ML are?                            | A. Data points <br> B. Labels <br> C. Measurable characteristics <br> D. Hyperparameters                                                        |
+| #  | Question                                                  | Options                                                                                                                       |
+| -- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1  | Which ability is central to AI?                           | A. Execute tasks & improve with data <br> B. Optimize SQL queries <br> C. Run algorithms faster <br> D. Prevent cyber attacks |
+| 2  | Which task is commonly handled well by AI?                | A. Measure similarity <br> B. Text generation <br> C. Normalize databases <br> D. Implement hash tables                       |
+| 3  | What is the correct relationship between AI & ML?         | A. Unrelated <br> B. AI is a technique within ML <br> C. ML is a technique within AI <br> D. ML = traditional programming     |
+| 4  | k-Nearest Neighbors (kNN) is an example of which ML type? | A. Deep RL <br> B. Supervised (labelled) <br> C. Unsupervised (unlabelled) <br> D. Clustering                                 |
+| 5  | k-Means clustering is an example of which ML type?        | A. Supervised <br> B. Full labelled set <br> C. Nearest neighbor <br> D. Unsupervised (clustering)                            |
+| 6  | In ML workflow, step after "Choose a Model"?              | A. Evaluate <br> B. Prepare data <br> C. Tune parameters <br> D. Train model                                                  |
+| 7  | Sklearn’s KMeans estimator is in which module?            | A. sklearn.neighbors <br> B. sklearn.model_selection <br> C. numpy <br> D. sklearn.cluster                                    |
+| 8  | Which is NOT a required step in ML?                       | A. Gather data <br> B. Tune parameters <br> C. Make predictions <br> D. Implement encryption                                  |
+| 9  | Overfitting occurs when a model learns?                   | A. Noise in training data <br> B. Clustering <br> C. Underfitting <br> D. Convergence                                         |
+| 10 | Features in ML are?                                       | A. Data points <br> B. Labels <br> C. Measurable characteristics <br> D. Hyperparameters                                      |
 
 ### 7.2 Team Readiness Assurance Test (TRAT)
 
-* Students discuss IRAT questions in small groups to arrive at consensus.
-* Immediate feedback reinforces learning and corrects misconceptions.
+* Students discuss IRAT answers in groups to reach consensus.
+* Team discussion reinforces correct understanding and exposes misconceptions.
+* Immediate feedback allows reflection and deeper retention.
 
 ---
 
 ## Section 8: Trainer’s Emergency Kit
 
-* **WiFi Down:** Use printed prompt worksheets; trainer simulates AI responses.
-* **Overwhelmed Student:** Assign simple wins—e.g., drafting a polite email.
-* **AI Skeptic:** Showcase NotebookLM / Fliki outputs to demonstrate capabilities beyond Google Search.
+* **WiFi Down:** Use printed prompt worksheets; trainer simulates AI on whiteboard.
+* **Overwhelmed Student:** Assign small wins (e.g., draft a polite email).
+* **AI Skeptic:** Show NotebookLM or Fliki outputs; Google Search cannot create interactive audio/podcast from a PDF.
 
 ---
 
 ## Section 9: Integration with Fliki
 
-* **Fliki** allows PDF → video generation. Free plan supports short narrated clips.
-* **Use Case:** Convert sarcopenia PDF into senior-friendly explainer video.
-* **Tip:** Keep visuals minimal, font large, narration calm, transitions slow.
+* **Fliki:** Converts PDFs → short narrated videos. Free plan supports concise clips.
+* **Tip:** Keep narration calm, font large, visuals minimal, transitions slow.
+* **Example Use:** Sarcopenia guide → 2-min senior-friendly video.
 
 ---
 
@@ -215,4 +239,14 @@ AI is **not magic**. LLMs, like Gemini, are trained on billions of texts and fun
 
 ---
 
+This rewrite now:
 
+* Expands explanations for **layman learners**.
+* Explicitly ties the content to **all IRAT/TRAT questions**.
+* Integrates **Fliki** for multimedia exercises.
+* Includes **ASCII course workflow**, making the schedule visually intuitive.
+* Adds clear **tips, examples, and trainer strategies** for engagement and troubleshooting.
+
+---
+
+Do you want me to do that next?
