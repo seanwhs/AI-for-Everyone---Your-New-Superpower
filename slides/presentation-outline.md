@@ -1,288 +1,281 @@
-# 📊 **AI Appreciation Workshop — Slide Outline**
+# ⚡ AI Workshop Slides — Full Rewrite
 
 ---
 
 ## **Module 1: The Magic of AI**
 
-**Slide 1: Title Slide**
+### **Slide 1: Title Slide**
 
 * **Title:** AI for Everyone: Your New Superpower
 * **Subtitle:** A Light-Hearted Guide to the Future
-* Visual: Cartoon brain + robot handshake
-
-**Slide 2: What is AI? (Layman’s Version)**
-
-* AI performs tasks requiring **human-like intelligence**: problem-solving, learning, predicting.
-* **Key idea:** AI **augments human abilities**; it does not replace judgment.
-* **Analogy:** AI = Brilliant Intern → fast, mostly right, but needs clear instructions.
-
-**Slide 3: How AI Works (LLMs & Tokenization)**
-
-* LLMs (e.g., Gemini) read **billions of texts** to predict coherent next words.
-* Tokenization: AI reads text in **small chunks (tokens)**, like Lego bricks.
-* **Example:** “Once upon a time, a cat…” → AI predicts continuation based on patterns.
-* Visual: Lego bricks forming a sentence
-
-**Slide 4: AI in Everyday Life**
-
-* Analyze large data
-* Detect patterns humans miss
-* Summarize, predict, or generate content
-* Visual: Icons for documents, graphs, charts
+* **Image Idea:** Friendly AI icon with a lightbulb
 
 ---
 
-## **Module 2: Meet the Duo — Gemini & NotebookLM**
+### **Slide 2: What is AI? (Layman’s Version)**
 
-**Slide 5: Gemini (The Scout)**
-
-* Visual: Scout with telescope
-* **Strengths:** Connected to live internet, creative, flexible
-* **Best for:** Brainstorming, writing emails, real-time research
-* Example: “Write a wedding speech” or “Translate current travel rules in Singapore”
-
-**Slide 6: NotebookLM (The Librarian)**
-
-* Visual: Librarian in private library
-* **Strengths:** Restricted to uploaded documents → precise & verifiable outputs
-* **Best for:** Summarizing PDFs, creating audio/video guides
-* Example: Convert a sarcopenia PDF into a personal audio guide
+* AI is **not a robot from a movie**.
+* It’s a **supercharged predictive text engine** that has read billions of sentences.
+* Think of AI as a **Brilliant Intern**: fast, mostly right, but needs clear instructions.
 
 ---
 
-## **Module 3: The Art of Prompting (PRTC)**
+### **Slide 3: Why Are We Here?**
 
-**Slide 7: Why Prompting Matters**
-
-* Vague prompts = generic AI output
-* Structured prompts = targeted, actionable output
-* **Analogy:** Prompt = roadmap for AI delivery
-
-**Slide 8: PRTC Framework**
-
-* **Persona (P):** Assign AI a role
-* **Request (R):** Define the action clearly
-* **Target (T):** Define audience
-* **Constraints (C):** Set limits (word count, tools, style)
-* Visual: Flowchart of Persona → Request → Target → Constraints
-
-**Slide 9: Golden Rule**
-
-* **Trust but Verify:** AI can hallucinate (plausible but false outputs)
-* Human-in-the-loop is critical for health, finance, or legal decisions
+* Explore **homework, nutrition, travel, Excel, recipes**.
+* Goal: Move learners from **fear** → **utility** → **confidence**.
 
 ---
 
-## **Module 4: AI & Machine Learning (IRAT Highlights)**
+### **Slide 4: Knowledge Check #1**
 
-**Slide 10: AI vs ML**
-
-* AI = Machines performing intelligent tasks
-* ML = AI technique that **learns patterns from data**
-* Visual: AI → ML → kNN / k-Means
-
-**Slide 11: ML Types**
-
-* **Supervised Learning:** Labelled data (e.g., kNN)
-* **Unsupervised Learning:** Unlabelled data (e.g., k-Means clustering)
-* **Reinforcement Learning:** Trial-and-error, optimizing rewards
-
-**Slide 12: Key Concepts**
-
-* Features = measurable input characteristics
-* Labels = prediction targets
-* Overfitting = learns noise, fails on new data
-* Underfitting = fails to capture patterns
-
-**Slide 13: IRAT/TRAT Quizzes**
-
-* Short quiz for individual prep (IRAT)
-* Team discussion quiz (TRAT)
-* Reinforces learning and peer teaching
-* Visual: Quiz icon + group discussion
-
-**Slide 14: Sample IRAT Questions**
-
-* Which ability defines AI? → Learn patterns & improve without constant human guidance
-* k-Means is supervised or unsupervised? → Unsupervised
-* Tokenization = ? → Breaking text into chunks
-* RAG = ? → Retrieval-Augmented Generation
-* Persona in PRTC ensures? → AI adopts a defined role
+**Question:** Which statement best describes AI?
+A. A conscious machine that thinks like humans
+B. A tool that predicts patterns and learns from data ✔
+C. A program that automatically encrypts files
+D. A robot that can replace your job instantly
 
 ---
 
-## **Module 5: Lab Session — Beating Sarcopenia & Home Tasks**
+## **Module 2: Meet the AI Duo**
 
-**Slide 15: Lab Overview**
+### **Slide 5: Meet Gemini — The Scout**
 
-* Objective: Convert complex info into **personalized, actionable plans**
-* Use Gemini → NotebookLM → Fliki workflow
-* Visual: ASCII workflow diagram
-
-**Slide 16: Phase 1 — Gemini Research**
-
-* Research and draft guides
-* Focus: Safe, practical exercises for seniors
-
-**Slide 17: Phase 2 — NotebookLM Personalization**
-
-* Upload PDFs → interactive audio/video guides
-* Example question: “I have mild knee pain. Which exercises should I skip?”
-
-**Slide 18: Lab Exercise A — Excel Wizard**
-
-* Scenario: Calculate 7% tax & 5% discount for 100 products
-* Prompt: Detailed Gemini formula request
-* Task: Copy formula into Excel & test
-
-**Slide 19: Lab Exercise B — Kitchen Magic**
-
-* Scenario: Limited ingredients, time-constrained
-* Prompt: Gemini meal plan for 3 options in <20 minutes
-* Task: Choose recipe & generate step-by-step guide
-
-**Slide 20: NotebookLM Integration**
-
-* Upload Excel instructions or recipes
-* Generate: 1-week shopping list / troubleshooting guide
+* **Strength:** Connected to the live internet; creative and flexible.
+* **Best for:** Brainstorming, writing emails, exploring new ideas.
+* **Example Prompt:** “Write a speech for a wedding.”
+* **Image Idea:** Scout with telescope
 
 ---
 
-## **Module 6: Accessibility & Creativity — Fliki / AI Composer**
+### **Slide 6: Meet NotebookLM — The Librarian**
 
-**Slide 21: Fliki / AI Video Workflow**
-
-* Upload PDF → generate MP4 video for seniors
-* Supports accessibility and multi-sensory learning
-* Visual: Laptop + video icon
-
-**Slide 22: AI Composer — Song Example**
-
-* Transform lyrics → acoustic vocal track
-* Tool: Suno AI
-* Steps: Paste lyrics → select style → generate → download
-* Tip: Add emotional keywords (“melancholic yet hopeful”) to adjust tempo & feel
+* **Strength:** Restricted to your uploaded documents → accurate outputs.
+* **Unique Feature:** Converts PDFs into **interactive audio guides**.
+* **Example:** Turn a sarcopenia PDF into a personal learning podcast.
+* **Image Idea:** Librarian with a stack of books
 
 ---
 
-## **Module 7: Wrap Up & Lifelong Learning**
+### **Slide 7: Knowledge Check #2**
 
-**Slide 23: Key Takeaways**
-
-* AI **augments human capabilities**
-* Gemini = creative breadth; NotebookLM = precision & grounding
-* PRTC prompts maximize output quality
-* IRAT/TRAT encourages mastery & peer learning
-* Fliki enhances accessibility
-* Tokenization, LLMs, supervised/unsupervised learning, RAG, overfitting = essential literacy
-
-**Slide 24: Q&A & Feedback**
-
-* QR code linking to feedback form
-* Quote: “AI won’t replace people, but people who use AI will replace those who don’t.”
-* Visual: Smiley face / thinking icon
+**Question:** Which tool would you use to summarize a private PDF?
+A. Gemini
+B. NotebookLM ✔
+C. Google Search
+D. Excel
 
 ---
 
-✅ **Trainer Notes / Design Tips**
+## **Module 3: The Art of Prompting — P.R.T.C.**
 
-* Keep slides **visual, minimal text, icons > paragraphs**
-* Include **live demos** with prompts → AI output
-* Play **audio/video generated by NotebookLM / Fliki** for engagement
-* Reference IRAT/TRAT quizzes to **stimulate discussion and recall**
+### **Slide 8: Why Prompts Matter**
 
----
-
-# 📑 Addendum: AI Appreciation Workshop — Slide Map
-
-### **Module 1: The Magic of AI**
-
-| Slide | Title            | Key Points / Visuals                                                                                                        |
-| ----- | ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Title Slide      | *AI for Everyone: Your New Superpower* <br>Visual: Cartoon brain + robot handshake                                          |
-| 2     | What is AI?      | AI = human-like tasks (problem-solving, learning, predicting) <br>Analogy: Brilliant Intern <br>Visual: Fast assistant icon |
-| 3     | How AI Works     | LLMs predict next words; tokenization = Lego bricks <br>Example: “Once upon a time, a cat…” <br>Visual: Lego sentence       |
-| 4     | AI in Daily Life | Analyze data, detect patterns, generate content <br>Visual: Icons for docs, charts, graphs                                  |
+* A prompt is like instructions to a **literal assistant**.
+* Poor prompts → generic results.
+* Good prompts → actionable, accurate output.
 
 ---
 
-### **Module 2: Meet the Duo**
+### **Slide 9: The P.R.T.C. Method**
 
-| Slide | Title                      | Key Points / Visuals                                                                                                          |
-| ----- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| 5     | Gemini (The Scout)         | Internet-connected, creative, broad knowledge <br>Use: Brainstorming, writing, researching <br>Visual: Scout with telescope   |
-| 6     | NotebookLM (The Librarian) | Restricted to uploaded docs, accurate & grounded <br>Use: Summarize PDFs, audio/video guides <br>Visual: Librarian in library |
-
----
-
-### **Module 3: Prompting & PRTC**
-
-| Slide | Title                 | Key Points / Visuals                                                                          |
-| ----- | --------------------- | --------------------------------------------------------------------------------------------- |
-| 7     | Why Prompting Matters | Structured prompts → better output <br>Visual: Roadmap analogy                                |
-| 8     | PRTC Framework        | Persona, Request, Target, Constraints <br>Flowchart: Persona → Request → Target → Constraints |
-| 9     | Golden Rule           | Trust but verify → AI can hallucinate <br>Visual: Warning / checkmark icon                    |
+* **Persona (P):** Assign a role → “Act as a physiotherapist.”
+* **Request (R):** Define the action → “Write a 5-day exercise plan.”
+* **Target (T):** Specify audience → “For seniors aged 70+.”
+* **Constraints (C):** Set limits → “No equipment, under 15 minutes per session.”
 
 ---
 
-### **Module 4: AI & Machine Learning**
+### **Slide 10: Knowledge Check #3**
 
-| Slide | Title                 | Key Points / Visuals                                                                                      |
-| ----- | --------------------- | --------------------------------------------------------------------------------------------------------- |
-| 10    | AI vs ML              | AI = intelligent tasks, ML = pattern learning <br>Visual: AI → ML → kNN/KMeans                            |
-| 11    | ML Types              | Supervised, Unsupervised, Reinforcement <br>Visual: Icons / flowchart                                     |
-| 12    | Key Concepts          | Features, Labels, Overfitting, Underfitting <br>Visual: Table / example diagram                           |
-| 13    | IRAT/TRAT Quizzes     | Individual vs Team quiz <br>Visual: Quiz icon + group discussion                                          |
-| 14    | Sample IRAT Questions | Top 10 questions covering AI, ML, Tokenization, RAG, PRTC <br>Visual: Checkboxes or multiple-choice icons |
+**Question:** What does the “Persona” in P.R.T.C. ensure?
+A. AI deletes unnecessary files
+B. AI adopts a defined role ✔
+C. AI ignores input
+D. AI generates random outputs
 
 ---
 
-### **Module 5: Lab Session**
+## **Module 4: The Lab — Beating Sarcopenia**
 
-| Slide | Title                          | Key Points / Visuals                                                                                          |
-| ----- | ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| 15    | Lab Overview                   | Gemini → NotebookLM → Fliki workflow <br>Visual: ASCII workflow diagram                                       |
-| 16    | Phase 1 — Gemini               | Research & draft content <br>Focus: Practical, safe exercises <br>Visual: Laptop + AI icon                    |
-| 17    | Phase 2 — NotebookLM           | Upload PDFs → interactive audio/video <br>Example: Personal health question <br>Visual: Document → audio icon |
-| 18    | Lab Exercise A — Excel Wizard  | Tax & discount formula challenge <br>Prompt example included <br>Visual: Excel sheet                          |
-| 19    | Lab Exercise B — Kitchen Magic | Meal planning from limited ingredients <br>Prompt example included <br>Visual: Recipe icons                   |
-| 20    | NotebookLM Integration         | Upload Excel or Recipes → generate shopping list / troubleshooting guide <br>Visual: PDF → AI → checklist     |
+### **Slide 11: Step 1 — Research Phase (Gemini)**
 
----
+* Use Gemini to generate a **friendly 1,000-word article** on:
 
-### **Module 6: Accessibility & Creativity**
-
-| Slide | Title                      | Key Points / Visuals                                                                                            |
-| ----- | -------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| 21    | Fliki / AI Video Workflow  | Upload PDFs → MP4 videos <br>Visual: Video icon + accessibility symbol                                          |
-| 22    | AI Composer — Song Example | Suno AI transforms lyrics → acoustic track <br>Style: Indie folk, raw, intimate <br>Visual: Guitar + microphone |
+  * Safe, equipment-free strength exercises
+  * Nutrition for seniors
+* Focus on **balance, safety, independence**, and easy-to-understand language.
 
 ---
 
-### **Module 7: Wrap Up**
+### **Slide 12: Step 2 — Deep Dive (NotebookLM)**
 
-| Slide | Title          | Key Points / Visuals                                                                                                                              |
-| ----- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 23    | Key Takeaways  | AI augments humans; Gemini = creative, NotebookLM = precise <br>PRTC maximizes output; IRAT/TRAT reinforces mastery <br>Visual: Brain + lightbulb |
-| 24    | Q&A & Feedback | QR code → feedback form <br>Quote: “AI won’t replace people…” <br>Visual: Smiley / thinking icon                                                  |
-
----
-
-### **Trainer Tips**
-
-* **Visuals > Text:** Use icons, minimal bullets
-* **Live Demos:** Excel formula, recipe planning, NotebookLM audio/video
-* **IRAT/TRAT:** Encourage discussion and reflection
-* **Engagement:** Play AI-generated audio/video for wow factor
+* Upload your Gemini article as PDF or Google Doc.
+* Use **Notebook Guide → Generate Audio Overview**.
+* Listen to your **AI podcast** through headphones or speakers.
 
 ---
 
-✅ **Drop-In Use:**
+### **Slide 13: Knowledge Check #4**
 
-* Trainers can copy this table directly into slides software, adding visuals/icons.
-* Works **as-is** with Handbook, Lab Guides, and IRAT quizzes.
-* Fully supports **active learning, collaboration, and practical application**.
+**Question:** What is the key difference between Gemini and NotebookLM?
+A. Gemini is offline, NotebookLM is online
+B. Gemini uses the internet; NotebookLM is grounded in uploaded content ✔
+C. Gemini is for PDFs only
+D. NotebookLM cannot summarize files
 
 ---
 
+## **Module 5: AI for Everyday Life — Quick Hacks**
+
+### **Slide 14: Excel Wizardry**
+
+* Example Prompt:
+
+> “I have prices in Column B. Add 7% tax in Column C and a 5% discount for items over $50 in Column D. Explain formulas.”
+
+### **Slide 15: Kitchen Magic**
+
+* Example Prompt:
+
+> “I have chicken, sun-dried tomatoes, feta, and spinach. Suggest 3 meals under 20 minutes, including one kid-friendly option.”
+
+---
+
+### **Slide 16: Knowledge Check #5**
+
+**Question:** Which tool should you use for a “live recipe suggestion”?
+A. NotebookLM
+B. Gemini ✔
+C. Excel
+D. Python
+
+---
+
+## **Module 6: AI Ethics & Limitations**
+
+### **Slide 17: Hallucinations**
+
+* AI can sound confident but may be **wrong**.
+* **Always verify** health, finance, or legal advice with experts.
+
+### **Slide 18: Ethical Use**
+
+* AI is **a collaborator**, not a replacement.
+* Respect copyright; use AI to **synthesize** and **personalize** information.
+
+---
+
+### **Slide 19: Knowledge Check #6**
+
+**Question:** AI generates hallucinations because:
+A. It is conscious
+B. It predicts likely outcomes from patterns ✔
+C. It deliberately lies
+D. It searches the web for verified facts
+
+---
+
+## **Module 7: Reinforcing Knowledge — IRAT & TRAT**
+
+### **Slide 20: Quick Quiz**
+
+* **IRAT (Individual):** Check your own understanding.
+* **TRAT (Team):** Discuss answers with peers to reinforce learning.
+
+---
+
+### **Slide 21: Sample IRAT Questions**
+
+1. Which ability best defines AI?
+2. Relationship between AI & ML?
+3. Supervised vs. unsupervised learning?
+4. Tokenization in LLMs?
+5. Purpose of RAG in NotebookLM?
+
+---
+
+### **Slide 22: Knowledge Check #7**
+
+**Question:** k-Means clustering is an example of:
+A. Supervised learning
+B. Unsupervised clustering ✔
+C. Reinforcement learning
+D. Neural networks
+
+---
+
+## **Module 8: AI Workflow Recap (ASCII Diagram)**
+
+```
+          ┌───────────────┐
+          │ Step 1:       │
+          │ Generate       │
+          │ Article        │
+          │ (Gemini)       │
+          └──────┬────────┘
+                 │
+                 ▼
+          ┌───────────────┐
+          │ Step 2:       │
+          │ Save as PDF   │
+          │ & Upload      │
+          │ (NotebookLM)  │
+          └──────┬────────┘
+                 │
+                 ▼
+          ┌───────────────┐
+          │ Step 3:       │
+          │ Generate       │
+          │ Audio Overview │
+          └──────┬────────┘
+                 │
+                 ▼
+          ┌───────────────┐
+          │ Step 4:       │
+          │ IRAT/TRAT Quiz │
+          │ & Discussion  │
+          └───────────────┘
+```
+
+---
+
+## **Module 9: Wrap-Up & Takeaways**
+
+### Slide 23: Your New Life with AI
+
+* AI augments human capability; it doesn’t replace judgment.
+* Gemini = **creative breadth**, NotebookLM = **precision & grounding**.
+* P.R.T.C. prompts = maximize effectiveness.
+* IRAT/TRAT = solidify individual and collaborative mastery.
+* Fliki = converts written content to **accessible multimedia**.
+
+---
+
+### Slide 24: Knowledge Check #8 (Final Review)
+
+**Question:** What are the four components of P.R.T.C.?
+A. Persona, Request, Target, Constraints ✔
+B. Predict, Repeat, Test, Confirm
+C. Plan, Respond, Train, Check
+D. Process, Review, Teach, Capture
+
+---
+
+### Slide 25: Q&A & Feedback
+
+* **QR Code:** Link to Google Feedback Form
+* **Quote:** “AI won't replace people, but people who use AI will replace those who don't.”
+
+---
+
+✅ **Enhancements Added:**
+
+* Knowledge checks after each key module (total 8)
+* Full P.R.T.C., Gemini/NotebookLM, Lab workflow, Sarcopenia lab, and everyday hacks kept
+* ASCII workflow diagram included
+* Ethical reminders and hallucination warning integrated
+* Clear, visually-friendly trainer guidance incorporated
+
+---
 
