@@ -21,10 +21,9 @@ Gemini helps you brainstorm, draft content, summarize text, plan activities, and
 
 * After signing in, you’ll see the chat interface.
 * Try entering a simple prompt: *“Summarize this paragraph: ‘Artificial Intelligence helps people automate tasks…’”*
-* Observe how Gemini responds.
 * Optional: Experiment with a creative prompt like *“Plan a 3-day hiking trip with beginner-friendly trails.”*
 
-💡 **Tip:** Think of Gemini as a **creative assistant** — it excels at brainstorming and generating diverse ideas.
+💡 **Tip:** Think of Gemini as a **creative assistant** — excellent for brainstorming and generating diverse ideas.
 
 ---
 
@@ -32,39 +31,67 @@ Gemini helps you brainstorm, draft content, summarize text, plan activities, and
 
 ### Purpose
 
-NotebookLM allows you to upload your own documents and ask AI questions about them. It’s perfect for summarizing research, generating notes, or creating audio overviews.
+NotebookLM allows you to upload documents and ask AI questions about them. Ideal for summarizing research, generating notes, or creating audio overviews.
 
 ### Sign-Up & Access
 
 1. Go to **[https://notebooklm.google.com](https://notebooklm.google.com)**.
 2. Click **Sign In** using the **same Google Account** used for Gemini.
-3. Once logged in, click **Create New Notebook**.
+3. Click **Create New Notebook**.
 
 ### Navigation & First Steps
 
-* Click **Upload Document** and select a PDF, Word doc, or Google Doc.
-* Once uploaded, type a question in the chat, e.g., *“Summarize the main points of this document.”*
-* Explore features like generating summaries, asking follow-up questions, or creating notes.
+* Upload a PDF, Word doc, or Google Doc.
+* Type a question in the chat, e.g., *“Summarize the main points of this document.”*
+* Explore summaries, follow-up questions, or note generation.
 
-🔹 **Tip:** NotebookLM is your **grounded assistant** — ideal for factual, document-based work.
+🔹 **Tip:** NotebookLM is your **grounded assistant** — perfect for factual, document-based work.
 
 ---
 
-## 🔹 Step 3: Flikit — Quick Visual/Media Tool
+## 🔹 Step 3: Fliki.ai — AI Video & Media Tool
 
 ### Purpose
 
-Flikit is used for lightweight image or multimedia editing. It’s helpful for adding visuals to your AI-generated content or experimenting with media outputs.
+Fliki.ai converts text into high-quality AI-generated videos, voiceovers, and multimedia content. Useful for creating engaging visual content from AI-generated text.
 
 ### Sign-Up & Access
 
+1. Go to **[https://fliki.ai](https://fliki.ai)**.
+2. Click **Sign Up** and use email or social login (Google/LinkedIn).
+3. Verify your account via email if prompted.
+
 ### Navigation & First Steps
 
-* Open Flikit via the web interface or local script.
-* Try loading a sample image or media file provided in the labs folder.
-* Experiment with basic edits or enhancements to get familiar with controls.
+* Select **Text-to-Video** or **Text-to-Speech**.
+* Input a short script or AI-generated content.
+* Choose voice, language, and visuals for the video.
+* Preview and generate your media output.
 
-💡 **Tip:** Flikit is optional but useful for **visual experimentation** alongside text-based AI tasks.
+💡 **Tip:** Fliki.ai is great for **turning AI text into rich multimedia content**.
+
+---
+
+## 🔹 Step 4: Suno.ai — AI Audio & Music Generation
+
+### Purpose
+
+Suno.ai generates high-quality AI audio, music, and sound effects. Ideal for creating audio overviews, podcasts, or enhancing video content.
+
+### Sign-Up & Access
+
+1. Go to **[https://suno.ai](https://suno.ai)**.
+2. Click **Sign Up** with email or social login.
+3. Confirm your account via email if required.
+
+### Navigation & First Steps
+
+* Choose between **Text-to-Speech** or **Music Generation**.
+* Input your text or select musical style.
+* Adjust voice, tempo, or style settings.
+* Generate audio output and preview.
+
+💡 **Tip:** Suno.ai is your **audio companion** — great for creating sound-rich content from AI-generated text.
 
 ---
 
@@ -73,15 +100,14 @@ Flikit is used for lightweight image or multimedia editing. It’s helpful for a
 * [ ] Confirm **Google Account** access.
 * [ ] Confirm access to **Gemini**.
 * [ ] Confirm access to **NotebookLM**.
-* [ ] Optional: Test **Flikit** with sample images.
+* [ ] Create accounts on **Fliki.ai** and **Suno.ai**.
+* [ ] Optional: Experiment with Fliki.ai or Suno.ai to familiarize yourself with interfaces.
 
 ---
 
 ## 💡 Why Lab 0 Matters
 
-* Ensures participants are **ready to start Day 1** without login or access issues.
+* Ensures participants are **ready to participate in the workshop** without login or access issues.
 * Familiarizes participants with **tool navigation and purpose**.
 * Allows participants to experiment **safely before guided exercises**.
 * Builds confidence and reduces technical disruptions during the workshop.
-
-
