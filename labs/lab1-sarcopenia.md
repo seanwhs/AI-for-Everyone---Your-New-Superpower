@@ -1,13 +1,19 @@
 # 🧪 Lab Guide: The Sarcopenia Project
 
-
 ## Objective
 
 Create a **senior-friendly educational video** on sarcopenia by:
 
 1. Generating a clear, non-technical article with AI
 2. Saving it as a PDF
-3. Converting the PDF into a short explainer video using a **free AI video generation tool**
+3. Converting the PDF into a short explainer video using a **free AI video generation tool** (Fliki)
+
+This lab demonstrates how **one well-written document** can be transformed into multimedia content with minimal effort.
+
+---
+
+## Workflow Overview
+
 ```
           ┌───────────────┐
           │  Step 1:      │
@@ -29,6 +35,7 @@ Create a **senior-friendly educational video** on sarcopenia by:
           │  Upload PDF   │
           │  to Free AI   │
           │  Video Tool   │
+          │  (Fliki)      │
           └──────┬────────┘
                  │
                  ▼
@@ -38,9 +45,7 @@ Create a **senior-friendly educational video** on sarcopenia by:
           │  MP4 Video    │
           │  for Seniors  │
           └───────────────┘
-
 ```
-This lab demonstrates how **one well-written document** can be transformed into multimedia content with minimal effort.
 
 ---
 
@@ -81,7 +86,7 @@ Avoid fitness hype or medical jargon.
 Focus on safety, consistency, and quality of life.
 ```
 
-3. Review the generated article.
+3. Review the generated article:
 
    * Ensure language is calm and senior-appropriate
    * Confirm all 5 exercises are clearly explained
@@ -109,34 +114,35 @@ Focus on safety, consistency, and quality of life.
 
 ## Step 3: Generate a Video from the PDF (Free AI Tool)
 
-1. Open **Canva**
-   👉 [https://www.canva.com/](https://www.canva.com/)
+1. Open **Fliki (Free AI Video Generator)**
+   👉 [https://fliki.ai](https://fliki.ai)
 
-2. Click **Create → Video**
-   (or search for **“AI Video Generator”**).
+2. Sign up for a free account.
 
-3. Upload your file:
+3. Select **Text or PDF to Video**.
+
+4. Upload your PDF:
 
    ```
    sarcopenia-guide.pdf
    ```
 
-4. Let Canva automatically:
+5. Let Fliki automatically:
 
-   * Convert sections into slides
-   * Extract headings and key points
-   * Apply basic layouts
+   * Convert sections into slides/scenes
+   * Generate AI voice narration (choose a calm, friendly voice)
+   * Apply simple visuals
 
-5. Make light adjustments if needed:
+6. Make light adjustments if needed:
 
    * Large, readable fonts
-   * Simple visuals or icons
-   * Slow transitions
+   * Simple icons or illustrations
+   * Slow, clear pacing
    * Minimal background music
 
-6. Export the final output as an **MP4 video**.
+7. Export the final output as an **MP4 video**.
 
-📌 *Aim for clarity, calm pacing, and readability for seniors—not flashy effects.*
+📌 *Focus on readability, calm pacing, and accessibility for seniors—not flashy effects.*
 
 ---
 
@@ -164,13 +170,13 @@ The focus is on:
 
 ---
 
-## 📄 Appendix A — Reflection & Assessment Questions
+## Reflection & Assessment Questions
 
 **Purpose:** Encourage learners to think critically about the content, the workflow, and the impact of AI-generated health materials for seniors.
 
 ---
 
-### **A. Reflection Questions**
+### **Reflection Questions**
 
 1. What was the most important insight you gained about **sarcopenia** and its effects on seniors?
 2. How did the exercises in the article focus on **balance, fall prevention, and independence** rather than strength or appearance?
@@ -180,7 +186,7 @@ The focus is on:
 
 ---
 
-### **B. Assessment Questions**
+### **Assessment Questions**
 
 1. List **five exercises** recommended for seniors in the article and **describe one daily-life benefit** for each.
 2. Explain why **protein intake is important for seniors**, and give an example of a protein source suitable for breakfast, lunch, or dinner.
