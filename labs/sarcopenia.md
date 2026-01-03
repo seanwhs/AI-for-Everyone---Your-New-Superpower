@@ -98,4 +98,3 @@ By performing these five simple movements and ensuring you have protein at each 
 
 ---
 
-**Would you like me to create a simple 7-day meal plan that hits those 30-gram protein targets for each meal?**
