@@ -160,6 +160,4 @@ DAY 3: Markets & Souvenirs
 01:00 PM - Bus → Larkin → Singapore
 ```
 
----
-
 
