@@ -162,13 +162,4 @@ DAY 3: Markets & Souvenirs
 
 ---
 
-✅ This **fully integrated version** is:
-
-* Step-by-step and romantic for couples
-* Easy to navigate with buses & Grab
-* Food-focused with cheat sheet for local specialties
-* Weather-ready with Plan B options
-* Compact timeline and transit “map” for mobile use
-
----
 
