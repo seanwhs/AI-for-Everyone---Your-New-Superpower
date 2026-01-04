@@ -1,11 +1,11 @@
 # 🌴 3-Day Singapore → Pontian Couple’s Adventure (Jan/Feb 2026)
 
-**Route:** Pinnacle@Duxton → Larkin Sentral → Pontian Bus Interchange
-**Transport:** Public buses (Causeway Link / Maju), Grab
-**Payment Options:** Cash, Credit Card, Grab App
-**Accommodation:** Pontian Kechil, walking distance from Bus Interchange
-**Highlights:** Pontian Wanton Mee, Fresh Seafood, Tanjung Piai National Park
-**Weather Contingency:** Plan B for monsoon rains in afternoons
+**Route:** Pinnacle@Duxton → Larkin Sentral → Pontian Bus Interchange  
+**Transport:** Public buses (Causeway Link / Maju), Grab  
+**Payment Options:** Cash, Credit Card, Grab App  
+**Accommodation:** Pontian Kechil, walking distance from Bus Interchange  
+**Highlights:** Pontian Wanton Mee, Fresh Seafood, Tanjung Piai National Park  
+**Weather Contingency:** Plan B for monsoon rains in afternoons  
 
 ---
 
@@ -13,22 +13,22 @@
 
 ### **Stage 1: Singapore → Larkin Sentral**
 
-* **Start:** Pinnacle@Duxton → Grab (~10 min) or MRT to Bugis → Walk to Queen Street Terminal
-* **Bus Options:**
+* **Start:** Pinnacle@Duxton → Grab (~10 min) or MRT to Bugis → Walk to Queen Street Terminal  
+* **Bus Options:**  
 
-  * **Causeway Link CW2:** Every 15–20 min | Contactless Visa/Mastercard/ManjaLink | S$4.80
-  * **SJE Yellow Bus:** Every 30 min | Cash only ~S$5
-* **Tip:** CW2 is faster and more convenient for digital payments.
+  * **Causeway Link CW2:** Every 15–20 min | Contactless Visa/Mastercard/ManjaLink | S$4.80  
+  * **SJE Yellow Bus:** Every 30 min | Cash only ~S$5  
+* **Tip:** CW2 is faster and more convenient for digital payments.  
 
 ---
 
 ### **Stage 2: Larkin Sentral → Pontian Bus Interchange**
 
-* **Counter:** Centralized Ticketing System (CTS) in main hall
-* **Bus Options:** Maju Bus 96 or Causeway Link 606
-* **Frequency:** Every 30–60 minutes
-* **Fare:** RM 6–8 per person
-* **Duration:** ~1.5 hours
+* **Counter:** Centralized Ticketing System (CTS) in main hall  
+* **Bus Options:** Maju Bus 96 or Causeway Link 606  
+* **Frequency:** Every 30–60 minutes  
+* **Fare:** RM 6–8 per person  
+* **Duration:** ~1.5 hours  
 
 ---
 
@@ -95,11 +95,11 @@
 
 ## 💡 Pro Tips for Couples
 
-1. **Safety:** Slippery floors in Larkin & Pontian; wear shoes with good grip.
-2. **Traffic Check:** Use “Beat the Jam” app before leaving Singapore to pick the fastest Causeway route.
-3. **Cash & Cards:** Small RM 50–100 notes for local purchases; buses mostly accept cards.
-4. **Weather Awareness:** Afternoons can get heavy with monsoon rain; Plan B options include cafes, museums, and local shopping.
-5. **Photography:** Sunrise and morning light are best for Tanjung Piai & Kukup Laut.
+1. **Safety:** Slippery floors in Larkin & Pontian; wear shoes with good grip.  
+2. **Traffic Check:** Use “Beat the Jam” app before leaving Singapore to pick the fastest Causeway route.  
+3. **Cash & Cards:** Small RM 50–100 notes for local purchases; buses mostly accept cards.  
+4. **Weather Awareness:** Afternoons can get heavy with monsoon rain; Plan B options include cafes, museums, and local shopping.  
+5. **Photography:** Sunrise and morning light are best for Tanjung Piai & Kukup Laut.  
 
 ---
 
@@ -141,16 +141,16 @@ The Oikos Hotel
 ## ⏱️ Daily Timeline Quick-Glance
 
 ```
-DAY 1: Arrival & Wanton Mee
-10:00 AM - Arrive → Hotel
-12:00 PM - Heng Heng Wanton Mee
-1:30 PM  - Pontian Seaside Park
-3:00 PM  - Rain Plan B: Cafe
-6:30 PM  - Dinner: Soccer Field Seafood
+DAY 1: Arrival & Wanton Mee  
+10:00 AM - Arrive → Hotel   
+12:00 PM - Heng Heng Wanton Mee    
+1:30 PM  - Pontian Seaside Park  
+3:00 PM  - Rain Plan B: Cafe  
+6:30 PM  - Dinner: Soccer Field Seafood  
 
-DAY 2: Tanjung Piai & Kukup
-08:00 AM - Tanjung Piai (Grab)
-11:00 AM - Kukup Laut
+DAY 2: Tanjung Piai & Kukup  
+08:00 AM - Tanjung Piai (Grab)  
+11:00 AM - Kukup Laut  
 12:30 PM - Lunch: New Kukup
 2:00 PM  - Rain Plan B: Museum / Shops
 
