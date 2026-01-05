@@ -5,14 +5,14 @@
 ## **Section 0: Pre-Course Quiz**
 
 **Slide 1 – Pre-Course Quiz**
-*Goal:* Gauge baseline knowledge, no pressure. Helps learners self-assess and trainer gauge experience.
+*Goal:* Gauge baseline knowledge. This quiz helps learners self-assess and provides the trainer with a sense of experience levels.
 
 1. What does "AI" stand for?
 2. Have you used ChatGPT, Gemini, or any AI tools before? (Yes/No)
 3. Do you think AI is mostly for programmers?
-4. One thing you hope AI can help you with today?
+4. What is one thing you hope AI can help you with today?
 
-**Trainer Tip:** Encourage discussion, normalize curiosity, and reduce fear. Let learners share their thoughts briefly.
+**Trainer Tip:** Encourage open discussion to normalize curiosity. Share responses briefly and set a relaxed tone.
 
 ---
 
@@ -21,8 +21,10 @@
 **Slide 2 – What is AI?**
 
 * **AI** = machines performing tasks that usually require human intelligence.
-* Works via **patterns, probabilities, and algorithms**.
-* Key idea: AI **augments humans**, it does not replace judgment.
+* Works through **patterns, probabilities, and algorithms**.
+* Key takeaway: AI **augments** human capabilities, it does not replace human judgment.
+
+**Trainer Tip:** Use an example like “AI as a tool, not a replacement.”
 
 ---
 
@@ -31,20 +33,20 @@
 **Slide 3 – Group Activity: What is AI?**
 *Goal:* Build a group understanding of AI.
 
-* **Instructions:** Break into small groups (3-4 people). Discuss the following:
+* **Instructions:** Break into small groups (3-4 people). Discuss:
 
   * What does AI mean to you?
   * Can you think of an example of AI in your daily life?
-* After 10 minutes, one person from each group shares their thoughts with the class.
+* After 10 minutes, each group will share their thoughts with the class.
 
-**Trainer Tip:** Emphasize that there are no wrong answers; it’s about sharing experiences.
+**Trainer Tip:** Emphasize that there are no wrong answers; encourage diverse perspectives.
 
 ---
 
 **Slide 4 – Layman Analogy**
 
 * AI is like a **fallible, brilliant intern**.
-* Fast, mostly right, but needs **your guidance**.
+* It's fast, mostly right, but still needs **your guidance**.
 * Example: Predicting the next word in a sentence or summarizing text.
 
 ---
@@ -52,15 +54,26 @@
 ### **Group Activity: AI Intern Simulation**
 
 **Slide 5 – Group Activity: AI Intern Simulation**
-*Goal:* Understand AI’s “intern-like” capabilities.
+*Goal:* Understand AI’s capabilities through roleplay.
 
-* **Instructions:** In pairs, role-play as an AI intern (one person is the intern, the other is the human supervisor). The intern will try to predict the next word or phrase based on a few sentences or context provided by the supervisor. After 10 minutes, swap roles.
+* **Instructions:** In pairs, role-play as an AI intern (one person is the intern, the other the human supervisor). The intern will try to predict the next word or phrase based on context provided by the supervisor. Swap roles after 10 minutes.
 * **Example Scenario:** “I’m going to make a sandwich with…”
 
-  * The intern predicts: “ham, cheese, and bread.”
-* Discuss how close (or far) the prediction was.
+  * Intern predicts: “ham, cheese, and bread.”
+* Discuss the accuracy of the prediction.
 
-**Trainer Tip:** Discuss that AI doesn’t “think” but makes guesses based on data.
+**Trainer Tip:** Stress that AI doesn’t “think” but makes educated guesses based on data.
+
+---
+
+**Knowledge Check #1**
+
+Q: Which best describes AI?
+A. A robot that thinks like a human
+B. A tool that predicts patterns and helps humans make decisions ✅
+C. Magic that solves all problems instantly
+
+**Trainer Tip:** Highlight that AI predicts patterns, not "thinking."
 
 ---
 
@@ -80,14 +93,12 @@
 **Slide 7 – Group Activity: Exploring LLMs**
 *Goal:* Dive into LLM applications and limitations.
 
-* **Instructions:** Break into small groups. Each group will get a task that uses an LLM (via Gemini or NotebookLM). Your task is to create a prompt for the AI tool and evaluate the result.
+* **Instructions:** Break into groups. Each group will use either **Gemini** or **NotebookLM** to:
 
-  * Examples:
-
-    * Write a summary of a news article.
-    * Generate a creative poem on a random topic.
-    * Summarize a scientific article.
-* Afterward, each group will share their prompt and result with the class.
+  * Write a summary of a news article.
+  * Generate a creative poem on a random topic.
+  * Summarize a scientific article.
+* After 15 minutes, each group will present their prompt and the result.
 
 **Trainer Tip:** Discuss how the quality of the prompt impacts the AI’s output.
 
@@ -96,210 +107,287 @@
 **Slide 8 – Tokenization**
 
 * Text is broken into **tokens** (letters, words, subwords).
-* Analogy: Lego bricks → AI constructs sentences from pieces.
+* Analogy: Lego bricks → AI builds sentences from pieces.
 * Helps AI understand context & predict coherent sequences.
 
 ---
 
-### **Group Activity: Tokenization Game**
+### **Group Activity: Tokenization Challenge**
 
 **Slide 9 – Group Activity: Tokenization Challenge**
-*Goal:* Experience how AI builds sentences with tokens.
+*Goal:* Experience how AI constructs sentences from tokens.
 
-* **Instructions:** In small groups, each group is given a “tokenized” sentence. Your task is to reconstruct the original sentence from the tokens (words or subwords).
+* **Instructions:** In small groups, each group is given a set of tokenized words. Your task is to reconstruct the original sentence from the tokens.
 
   * Example Tokens: “AI”, “creates”, “new”, “ideas”, “solutions”.
   * Reconstruct the sentence: "AI creates new solutions."
-* Discuss how tokenization works in AI.
+* Discuss how tokenization helps AI manage text.
 
-**Trainer Tip:** Emphasize that tokenization helps AI manage and organize text to understand it.
+**Trainer Tip:** Emphasize that tokenization is key to AI’s ability to interpret and generate language.
+
+---
+
+**Slide 10 – Tokenization & AI Learning**
+
+* Tokenization allows AI to build an understanding of sentence structure.
+* **Example:** In the sentence "AI creates new solutions," AI analyzes the relationship between tokens to predict the correct output.
+* Tokenization is the first step toward creating **contextual understanding**.
 
 ---
 
 ## **Section 3: Gemini vs. NotebookLM**
 
-**Slide 10 – Google Gemini: The Brainstormer**
+**Slide 11 – Google Gemini: The Brainstormer**
 
 * Creative, connected to **live internet**.
-* Great for brainstorming, drafting, summarizing online info.
-* High “temperature” → more diverse/creative outputs.
+* Great for brainstorming, drafting, summarizing online content.
+* High “temperature” → more diverse and creative outputs.
 
-**Slide 11 – NotebookLM: The Librarian**
+**Trainer Tip:** Demonstrate Gemini’s creative use with examples like “generate a poem on friendship” or “create a wedding speech.”
+
+---
+
+**Slide 12 – NotebookLM: The Librarian**
 
 * Grounded in **your uploaded documents**.
 * Great for personal summaries, interactive learning, or audio guides.
 * Uses **RAG** (Retrieval-Augmented Generation) to ensure factual consistency.
 
+**Trainer Tip:** Emphasize NotebookLM’s ability to **ensure accuracy** with document-based content.
+
+---
+
+**Knowledge Check #3**
+
+Q: To summarize your own PDF, which tool would you use?
+A. Gemini
+B. NotebookLM ✅
+
+**Trainer Tip:** Explain that Gemini is best for creative tasks, while NotebookLM is great for precise summaries.
+
 ---
 
 ### **Group Activity: Gemini vs. NotebookLM Showdown**
 
-**Slide 12 – Group Activity: Gemini vs. NotebookLM**
-*Goal:* Experience and compare Gemini’s creative power with NotebookLM’s precision.
+**Slide 13 – Group Activity: Gemini vs. NotebookLM**
+*Goal:* Compare Gemini’s creativity with NotebookLM’s precision.
 
-* **Instructions:** In groups, each group will tackle the same task using both Gemini and NotebookLM.
+* **Instructions:** In groups, each will:
 
-  * Task: Create a 5-sentence summary of a news article.
-  * First, use Gemini and generate the summary.
-  * Then, upload the article to NotebookLM and create a more fact-checked version.
-* After 15 minutes, each group will share their findings, and the class will discuss the pros and cons of each tool.
+  * Use **Gemini** to generate a 5-sentence summary of a news article.
+  * Upload the article to **NotebookLM** and generate a fact-checked version.
+* After 15 minutes, each group will share their findings and discuss the strengths and weaknesses of each tool.
+
+**Trainer Tip:** Highlight Gemini’s **creativity** vs. NotebookLM’s **precision**.
 
 ---
 
 ## **Section 4: The P.R.T.C. Prompting Framework**
 
-**Slide 13 – Why Prompting Matters**
+**Slide 14 – Why Prompting Matters**
 
-* AI is **literal**: vague prompts → generic answers.
-* Structured prompts → actionable, reliable outputs.
+* AI is **literal**: vague prompts = generic answers.
+* Structured prompts = **actionable, reliable outputs**.
 
-**Slide 14 – P.R.T.C. Method**
+---
+
+**Slide 15 – P.R.T.C. Method**
 
 * **P — Persona:** Assign AI a role (e.g., “Physiotherapist”).
 * **R — Request:** Specify the task (e.g., “5 senior-safe exercises”).
-* **T — Target:** Define audience & tone (e.g., “For beginners age 70+”).
-* **C — Constraints:** Word count, equipment, style, safety cues.
+* **T — Target:** Define the audience and tone (e.g., “For beginners age 70+”).
+* **C — Constraints:** Set word count, equipment needed, style, or safety guidelines.
+
+---
+
+**Slide 16 – P.R.T.C. & AI Output Quality**
+
+* Well-crafted prompts result in **reliable outputs**.
+* Example: Compare "Write a summary of this research paper" to “Summarize this paper written for 70+ year olds, focusing on physical activity.”
+
+---
+
+**Knowledge Check #4**
+
+Q: PRTC helps you:
+A. Write essays automatically
+B. Craft **effective prompts for AI** ✅
+C. Check grammar in a document
+
+**Trainer Tip:** Demonstrate “bad prompt → PRTC prompt” live to show the difference.
 
 ---
 
 ### **Group Activity: Craft a P.R.T.C. Prompt**
 
-**Slide 15 – Group Activity: Craft a Perfect Prompt**
-*Goal:* Master the P.R.T.C. framework through collaborative prompting.
+**Slide 17 – Group Activity: Craft a Perfect Prompt**
+*Goal:* Master the P.R.T.C. framework together.
 
-* **Instructions:** In groups, create a detailed prompt using the P.R.T.C. framework. Pick a task such as:
+* **Instructions:** In groups, create a detailed prompt using the P.R.T.C. framework. Choose a task such as:
 
-  * Write a travel guide for a senior citizen.
+  * Write a travel guide for senior citizens.
   * Generate a list of 5 beginner-level exercises for older adults.
   * Create a personalized meal plan for someone with dietary restrictions.
 * After 15 minutes, each group will share their prompt and results.
 
-**Trainer Tip:** Highlight how each part of the P.R.T.C. framework improves the AI’s output.
+**Trainer Tip:** Explain how each part of the P.R.T.C. framework improves AI’s output.
 
 ---
 
 ## **Section 5: Applying Knowledge – Sarcopenia Lab**
 
-**Slide 16 – Lab Objective**
+**Slide 18 – Lab Objective**
 
 * Create **personalized exercise & nutrition guidance for seniors**.
-* Phase 1: Gemini → Draft research-based article.
-* Phase 2: NotebookLM → Convert into **audio guide**.
+* **Phase 1:** Use Gemini to draft a research-based article.
+* **Phase 2:** Upload to NotebookLM to create an **audio guide**.
 
 ---
 
 ### **Group Activity: Sarcopenia Lab Collaboration**
 
-**Slide 17 – Group Activity: Sarcopenia Lab**
-*Goal:* Work together to apply AI to real-world issues.
+**Slide 19 – Group Activity: Sarcopenia Lab**
+*Goal:* Apply AI to real-world challenges.
 
-* **Instructions:** In small groups, use Gemini to write an article on sarcopenia (muscle loss in older adults) and then upload it to NotebookLM for an audio guide.
+* **Instructions:** In small groups, use **Gemini** to write an article on sarcopenia (muscle loss in older adults). Then, upload the article to **NotebookLM** for conversion into an audio guide.
 
-  * Task: Focus on **balance exercises** and **nutrition tips**.
-  * After 30 minutes, discuss how your article turned out and how NotebookLM improved the audio version.
+  * Focus on **balance exercises** and **nutrition tips**.
+* After 30 minutes, discuss how your article turned out and how NotebookLM improved the audio guide.
 
-**Trainer Tip:** Encourage students to provide feedback on AI’s effectiveness and accuracy in real-world applications.
+**Trainer Tip:** Encourage feedback on AI
+
+
+’s **effectiveness and accuracy** in real-world applications.
+
+---
+
+**Knowledge Check #5**
+
+Q: NotebookLM is safer than Gemini for:
+A. Brainstorming new ideas
+B. Summarizing uploaded research ✅
 
 ---
 
 ## **Section 6: AI in Daily Life**
 
-**Slide 18 – Quick Wins with AI**
+**Slide 20 – Quick Wins with AI**
 
-* Excel formulas → tax/discount calculations.
-* Meal planning → using leftover ingredients.
-* Homework explanations → simple, clear breakdowns.
-* AI is **collaborative**, you verify outputs.
+* **Excel formulas:** Tax/discount calculations.
+* **Meal planning:** Using leftover ingredients.
+* **Homework explanations:** Simple, clear breakdowns.
+* **AI is collaborative:** You verify the output.
 
 ---
 
 ### **Group Activity: AI in Your Life**
 
-**Slide 19 – Group Activity: Plan Your Day with AI**
+**Slide 21 – Group Activity: Plan Your Day with AI**
 *Goal:* Apply AI tools to real-life scenarios.
 
-* **Instructions:** In groups, plan a full day using AI tools. Each group member will choose one of the following:
+* **Instructions:** In groups, plan a full day using AI tools. Each member will choose one task:
 
   * Plan meals for the day with Gemini.
   * Generate an exercise routine with NotebookLM.
   * Plan a study schedule or homework with ChatGPT.
-* After 15 minutes, each group will present their AI-powered day plan.
+* After 15 minutes, present your **AI-powered day plan**.
+
+---
+
+**Knowledge Check #6**
+
+Q: Plan a 3-day walking tour for a senior citizen. Which AI tool?
+A. Gemini ✅
+B. NotebookLM
 
 ---
 
 ## **Section 7: Ethics & Hallucinations**
 
-**Slide 20 – Hallucinations**
+**Slide 22 – Hallucinations**
 
 * AI can produce **plausible but incorrect outputs**.
 * Always **verify critical information**.
-* Treat AI as **first draft assistant**, not final authority.
+* AI should be treated as a **first draft assistant**, not the final authority.
 
 ---
 
 ### **Group Activity: Fact-Check with AI**
 
-**Slide 21 – Group Activity: Fact-Checking with AI**
-*Goal:* Understand the importance of verifying AI-generated content.
+**Slide 23 – Group Activity: Fact-Checking with AI**
+*Goal:* Practice verifying AI-generated content.
 
-* **Instructions:** In small groups, use an AI tool (Gemini or NotebookLM) to generate an article or answer a factual question. Then, fact-check it using reliable sources.
+* **Instructions:** Use **Gemini** or **NotebookLM** to generate an article or answer a factual question. Then, fact-check the result using **reliable sources**.
 
   * Example: “Who won the World Series in 2020?”
-* After
-
-
-10 minutes, discuss how accurate or inaccurate AI was and why it’s important to verify AI content.
+* Discuss any discrepancies and why verifying AI content is essential.
 
 ---
 
 ## **Section 8: Machine Learning Essentials**
 
-**Slide 22 – Core Concepts**
+**Slide 24 – Core Concepts**
 
-* Machine Learning = AI that **learns patterns from data**.
-* **Supervised Learning:** labeled data (e.g., kNN).
-* **Unsupervised Learning:** unlabeled data (e.g., k-Means).
-* **Reinforcement Learning:** trial-and-error optimization.
-* **Overfitting:** memorizes noise → poor generalization.
-* **Underfitting:** too simple → misses patterns.
+* **Machine Learning (ML):** AI that learns from data patterns.
+* **Supervised Learning:** Uses labeled data.
+* **Unsupervised Learning:** Uses unlabeled data.
+* **Reinforcement Learning:** Uses trial and error.
+* **Overfitting:** Learns noise and patterns → poor generalization.
+* **Underfitting:** Too simple → misses patterns.
+
+---
+
+**Knowledge Check #8**
+
+Q: Overfitting occurs when:
+A. Model learns noise + patterns → poor on new data ✅
+B. Model generalizes well
+C. Model ignores labels
 
 ---
 
 ### **Group Activity: Training a Model**
 
-**Slide 23 – Group Activity: Train Your Model**
-*Goal:* Learn the basic concepts of machine learning by simulating model training.
+**Slide 25 – Group Activity: Train Your Model**
+*Goal:* Simulate machine learning with real-world data.
 
-* **Instructions:** Break into small groups. Each group will be given a dataset (real or mock) and a simple task:
+* **Instructions:** In small groups, each will:
 
-  * Classify fruits based on color and shape.
-  * Predict whether a customer will purchase a product based on demographics.
-* After 15 minutes, each group will present their model and discuss any issues with overfitting or underfitting.
+  * Classify fruits by color and shape.
+  * Predict customer purchases based on demographics.
+* After 15 minutes, discuss overfitting and underfitting.
 
 ---
 
 ## **Section 9: Lab 2 – Home & Work Use Cases**
 
-**Slide 24 – Path A: Excel Wizard**
+**Slide 26 – Path A: Excel Wizard**
 
-* **Activity:** Create formulas for tax, discounts.
-* **Instructions:** Use AI to generate formulas in Excel for real-world scenarios.
+* **Activity:** Create formulas for tax/discount calculations.
+* **Instructions:** Use AI in Excel for real-world scenarios.
 
-**Slide 25 – Path B: Kitchen Magic**
+**Slide 27 – Path B: Kitchen Magic**
 
-* **Activity:** Meal planning from leftovers.
-* **Instructions:** Use **PRTC** for best results.
+* **Activity:** Plan meals from leftovers.
+* **Instructions:** Use **PRTC** to guide meal planning.
 
-**Slide 26 – NotebookLM Integration**
+**Slide 28 – NotebookLM Integration**
 
 * **Activity:** Upload recipes or tasks.
 * **Instructions:** Generate shopping lists or troubleshooting guides.
 
 ---
 
+**Knowledge Check #9**
+
+Q: P.R.T.C. stands for:
+Persona, Request, Target, Constraints ✅
+
+---
+
 ## **Section 10: Post-Course Reflection & Quiz**
 
-**Slide 27 – Post-Course Quiz**
+**Slide 29 – Post-Course Quiz**
 
 1. What does "AI" stand for?
 2. Which statement best describes AI?
@@ -309,20 +397,23 @@
 6. Which tool for: Research current news / Summarize PDF / Brainstorm ideas?
 7. One surprising thing you learned.
 
-**Slide 28 – Knowledge Check #10 (Optional Discussion)**
+---
 
-* **Group Activity:** Reflect and share key takeaways.
+**Slide 30 – Knowledge Check #10 (Optional Discussion)**
 
-  * Discuss **practical applications** learned.
-  * Review how AI can assist in daily life.
+* **Group Activity:** Reflect on key takeaways from the course.
+
+  * Discuss practical applications learned.
+  * Share how AI can assist in daily life.
 
 ---
 
 ## ✅ **Key Takeaways**
 
 * AI **augments human capability**, not replaces it.
-* Gemini → **creative breadth**; NotebookLM → **precision & grounding**.
-* P.R.T.C. → structured prompting for **better outputs**.
+* **Gemini** = creative breadth; **NotebookLM** = precision & grounding.
+* **P.R.T.C.** helps craft **better prompts**.
 * Knowledge checks reinforce **learning & retention**.
 
 ---
+
