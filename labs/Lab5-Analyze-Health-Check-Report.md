@@ -1,4 +1,4 @@
-# 🩺 Lab: AI Appreciation Through Health Data Analysis
+# 🩺 Lab 5: AI Appreciation Through Health Data Analysis
 
 It can be incredibly overwhelming to open a health report and see a wall of numbers, abbreviations, and red "out of range" markers. This lab is designed to help participants experience "AI Appreciation"—the realization of how Generative AI can serve as a powerful bridge between complex technical data and personal empowerment.
 
